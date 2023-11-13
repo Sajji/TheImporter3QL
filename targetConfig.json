@@ -1,0 +1,8 @@
+{
+  "targetDomain": "federal.collibra.com",
+  "targetApiURL": "https://federal.collibra.com/rest/2.0",
+  "targetUsername": "SysAdmin",
+  "targetPassword": "woffles",
+  "backupDir": "bkup",
+  "tempFilesDir": "/home/woffles/Code/TheImporter3QL/tempFilesDir"
+}
