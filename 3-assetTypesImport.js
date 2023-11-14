@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
-const targetConfig = require('./targetConfig.json'); // Assuming this file has the necessary target system configuration
+const targetConfig = require('./targetConfig.json');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -11,26 +11,20 @@ const rl = readline.createInterface({
 
 const askQuestion = (query) => new Promise((resolve) => rl.question(query, resolve));
 
-// Recursive function to process asset type and its parents
-const processAssetType = async (assetType) => {
-  if (!assetType || assetType.parentId === "00000000-0000-0000-0000-000000031000") { // Assuming this is the top-level parent ID for asset types
-    return; // Base case: reached top-level parent or no more parents
+// Function to flatten the asset type hierarchy
+const flattenAssetTypes = (assetType, flattened = new Set()) => {
+  if (!assetType || flattened.has(assetType.id)) return;
+  
+  flattened.add(assetType.id);
+  
+  if (assetType.parent) {
+    flattenAssetTypes(assetType.parent, flattened);
   }
-
-  const exists = await checkAssetTypeExists(assetType.id);
-  if (!exists) {
-    const addResponse = await askQuestion(`Asset type ${assetType.name} does not exist. Do you want to add it? (yes/no) `);
-    if (addResponse.toLowerCase() === 'yes') {
-      await addAssetType(assetType);
-    }
-  } else {
-    console.log(`Asset type ${assetType.name} already exists.`);
-  }
-
-  // Process the parent asset type
-  await processAssetType(assetType.parent);
+  console.log([...flattened]);
+  return [...flattened];
 };
 
+// Function to check if a asset type exists
 const checkAssetTypeExists = async (assetTypeId) => {
   try {
     await axios.get(`https://${targetConfig.targetDomain}/rest/2.0/assetTypes/${assetTypeId}`, {
@@ -48,12 +42,13 @@ const checkAssetTypeExists = async (assetTypeId) => {
   }
 };
 
+// Function to add a new asset type
 const addAssetType = async (assetType) => {
   while (true) {
     try {
       await axios.post(`https://${targetConfig.targetDomain}/rest/2.0/assetTypes`, {
         id: assetType.id,
-        name: assetType.newName, // Assuming newName is what you want to use
+        name: assetType.newName,
         description: assetType.description,
         parentId: assetType.parentId
       }, {
@@ -63,7 +58,7 @@ const addAssetType = async (assetType) => {
         }
       });
       console.log(`Asset type ${assetType.newName} added successfully.`);
-      return;
+      break;
     } catch (error) {
       if (error.response && error.response.status === 400) {
         console.log(`Asset type ${assetType.newName} already exists. Please provide a new name.`);
@@ -76,15 +71,49 @@ const addAssetType = async (assetType) => {
 };
 
 // Main function to process asset types
+// Main function to process all asset types
 const processAssetTypes = async () => {
   const assetTypesPath = path.join(targetConfig.backupDir, 'uniqueAssetTypesTree.json');
-  const assetTypes = JSON.parse(fs.readFileSync(assetTypesPath, 'utf8'));
+  const assetTypesData = JSON.parse(fs.readFileSync(assetTypesPath, 'utf8'));
 
-  for (const assetType of assetTypes) {
-    await processAssetType(assetType);
+  let allAssetTypeIds = new Set();
+  for (const assetType of assetTypesData) {
+    flattenAssetTypes(assetType, allAssetTypeIds);
+  }
+
+  for (const assetTypeId of allAssetTypeIds) {
+    // Find the asset type object that corresponds to the current ID
+    let assetType = findAssetTypeById(assetTypesData, assetTypeId);
+    if (assetType) {
+      console.log(`Processing asset type ${assetTypeId}`)
+      const exists = await checkAssetTypeExists(assetTypeId);
+      if (!exists) {
+        const addResponse = await askQuestion(`Asset type ${assetType.name} does not exist. Do you want to add it? (yes/no) `);
+        if (addResponse.toLowerCase() === 'yes') {
+          await addAssetType(assetType);
+        }
+      } else {
+        console.log(`Asset type ${assetType.name} already exists.`);
+      }
+    }
   }
 
   rl.close();
 };
+
+// Function to find a asset type by ID from the nested structure
+const findAssetTypeById = (assetTypes, id) => {
+  for (const assetType of assetTypes) {
+    if (assetType.id === id) {
+      return assetType;
+    }
+    if (assetType.parent) {
+      let found = findAssetTypeById([assetType.parent], id);
+      if (found) return found;
+    }
+  }
+  return null;
+};
+
 
 processAssetTypes();
