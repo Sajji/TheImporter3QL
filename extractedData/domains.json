@@ -1,0 +1,90 @@
+[
+  {
+    "id": "00000000-0000-0000-0001-000200000001",
+    "name": "Data Sets",
+    "typeId": "00000000-0000-0000-0000-000000030031",
+    "description": "The Data Sets domain collects the data sets that are built on top of the physical data layer assets.",
+    "communityId": "00000000-0000-0000-0001-000100000001"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000200000002",
+    "name": "Data Usages",
+    "typeId": "00000000-0000-0000-0000-000000030031",
+    "communityId": "00000000-0000-0000-0001-000100000001"
+  },
+  {
+    "id": "69495033-1121-4ffc-a010-1119a5d30311",
+    "name": "Ikea Business Glossary",
+    "typeId": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+    "communityId": "00000000-0000-0000-0001-000100000001"
+  },
+  {
+    "id": "d4991b92-ff18-4d76-a172-adbed128b342",
+    "name": "IkeaJr Business Glossary",
+    "typeId": "4e5b8416-95a7-46b8-8132-197d58766bf0",
+    "communityId": "00000000-0000-0000-0001-000100000001"
+  },
+  {
+    "id": "00fb8c5d-669e-4817-b6b7-7f85ae14012f",
+    "name": "Churn Analysis Prediction",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>File containing the data that is output of predictive analytical model on customers' probability of churning.</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "communityId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "a3515a6c-e189-4957-a894-9fec7e505a94",
+    "name": "hr_db",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The hr_db domain collects a database asset of the AWS HCM system and the physical data assets of its schemas.",
+    "communityId": "2418833a-4b43-4102-9a4e-d3e28d021828"
+  },
+  {
+    "id": "0f79892c-4630-40b9-85ec-067b30ea83b9",
+    "name": "Refined",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The Refined domain collects a database asset of the CRM Cloud system and the physical data assets of its schemas.",
+    "communityId": "5846f7b2-67ed-4eb1-8718-456d4e05e21e"
+  },
+  {
+    "id": "2be450c1-b471-45f8-8ee5-b08fdd7a5fe6",
+    "name": "Consumption",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The Consumption domain collects a database asset of the CRM Cloud system and the physical data assets of its schemas.",
+    "communityId": "5846f7b2-67ed-4eb1-8718-456d4e05e21e"
+  },
+  {
+    "id": "cfb0a996-0aed-405e-8670-3046a4b94115",
+    "name": "Raw",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The Raw domain collects a database asset of the CRM Cloud system and the physical data assets of its schemas.",
+    "communityId": "5846f7b2-67ed-4eb1-8718-456d4e05e21e"
+  },
+  {
+    "id": "f0b141f4-12c0-447b-aba6-68d4999c495e",
+    "name": "ORCL",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The ORCL domain collects a database asset of the HR Cloud system and the physical data assets of its schemas.",
+    "communityId": "7527ea30-ad8e-463c-b2c5-92296932ae18"
+  },
+  {
+    "id": "50bf0fd2-d304-434c-b044-b3eaaa83b316",
+    "name": "sales",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The sales domain collects a database asset of the AWS RDS system and the physical data assets of its schemas.",
+    "communityId": "7efed47e-98fc-404e-8d87-efe16ce935cd"
+  },
+  {
+    "id": "4a20d8bf-e26b-447d-8998-e36dd07b3663",
+    "name": "Sales",
+    "typeId": "00000000-0000-0000-0000-000000030011",
+    "description": "The sales domain collects a database asset of the Corporate EDWH Cloud system and the physical data assets of its schemas.",
+    "communityId": "d609ae7b-6c19-4924-aabb-c16e164f6118"
+  },
+  {
+    "id": "e75d0787-594c-45ea-b642-041e56829ef6",
+    "name": "field-sales-bucket",
+    "typeId": "00000000-0000-0000-0001-002200000000",
+    "description": "The field-sales-bucket domain collects a bucket asset of the AWS S3 and the physical data assets of its folders.",
+    "communityId": "ef6d3e04-6292-419e-9e7f-07af9940f5c9"
+  }
+]

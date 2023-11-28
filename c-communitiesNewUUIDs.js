@@ -7,7 +7,7 @@ const communitiesPath = path.join(tempFilesDir, 'communities.json');
 const mappingsPath = path.join(tempFilesDir, 'uuidMappings.json');
 
 const communities = JSON.parse(fs.readFileSync(communitiesPath, 'utf8'));
-const uuidMappings = {};
+const uuidMappings = [];
 
 // Function to replace UUIDs and update parentId
 const updateUUIDs = (communityArray) => {
@@ -16,7 +16,7 @@ const updateUUIDs = (communityArray) => {
     const newId = uuidv4();
 
     // Map old UUID to new UUID
-    uuidMappings[oldId] = newId;
+    uuidMappings.push({ oldId, newId });
 
     // Replace the id with the new UUID
     community.id = newId;
@@ -24,8 +24,11 @@ const updateUUIDs = (communityArray) => {
 
   // Update parentId with new UUIDs
   communityArray.forEach(community => {
-    if (community.parentId && uuidMappings[community.parentId]) {
-      community.parentId = uuidMappings[community.parentId];
+    if (community.parentId) {
+      const mapping = uuidMappings.find(mapping => mapping.oldId === community.parentId);
+      if (mapping) {
+        community.parentId = mapping.newId;
+      }
     }
   });
 };

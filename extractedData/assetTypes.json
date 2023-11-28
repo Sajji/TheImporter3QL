@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000011003",
+    "name": "Acronym",
+    "newName": "Acronym - imported",
+    "description": "An abbreviation that is used as a word. It is formed from the initial letters of a Business Term.\nExamples: ERP, EDW, EAD",
+    "parentId": "00000000-0000-0000-0000-000000011001",
+    "parentName": "Business Term"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010014",
+    "name": "Adaptive Rule Score",
+    "newName": "Adaptive Rule Score - imported",
+    "description": "Score of an adaptive rule executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002800000003",
+    "name": "ADLS Container",
+    "newName": "ADLS Container - imported",
+    "description": "An asset type that represents an Azure Data Lake Container, which is a logical unit of storage containing Azure Data Lake Storage objects.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002800000001",
+    "name": "ADLS File System",
+    "newName": "ADLS File System - imported",
+    "description": "An asset type that represents Azure Data Lake Storage file system.",
+    "parentId": "00000000-0000-0000-0001-002900000001",
+    "parentName": "File Storage"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002800000002",
+    "name": "ADLS Storage Account",
+    "newName": "ADLS Storage Account - imported",
+    "description": "An asset type that represents an Azure Data Lake Storage Account, which is a logical unit of storage containing Azure Data Lake Container objects.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "752466c9-ec22-4510-802d-77de062cabe7",
+    "name": "Analytics Model",
+    "newName": "Analytics Model - imported",
+    "description": "An Analytics Model is a model that examines current and historical datasets for underlying patterns and calculate the probability of an outcome.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000000262",
+    "name": "Application",
+    "newName": "Application - imported",
+    "description": "A classification of computer programs designed to perform specific tasks, such as word processing, database management and graphics editing, for a specific business purpose.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039050",
+    "name": "Assessment",
+    "newName": "Assessment - imported",
+    "description": "A type of asset that is used to store the results of assessments as attributes and relations.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031305",
+    "name": "Assessment Review",
+    "newName": "Assessment Review - imported",
+    "description": "An asset of this type is created when an assessment is conducted on an asset and submitted for review.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000006",
+    "name": "BI Data Attribute",
+    "newName": "BI Data Attribute - imported",
+    "description": "A specification that defines a property of a BI data entity.",
+    "parentId": "00000000-0000-0000-0000-000000031005",
+    "parentName": "Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000007",
+    "name": "BI Data Entity",
+    "newName": "BI Data Entity - imported",
+    "description": "A unit of data in a BI data source that can be classified and can have a stated relationship to other units of data.",
+    "parentId": "00000000-0000-0000-0000-000000031004",
+    "parentName": "Data Entity"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000008",
+    "name": "BI Data Model",
+    "newName": "BI Data Model - imported",
+    "description": "An abstraction of data structures such as databases, schemas and files, used to create BI reports.",
+    "parentId": "00000000-0000-0000-0000-000000031003",
+    "parentName": "Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000009",
+    "name": "BI Data Set",
+    "newName": "BI Data Set - imported",
+    "description": "A collection of data that is used for BI report creation.",
+    "parentId": "00000000-0000-0000-0001-000400000001",
+    "parentName": "Data Set"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000005",
+    "name": "BI Data Source",
+    "newName": "BI Data Source - imported",
+    "description": "The link between a BI System and an external system.",
+    "parentId": "00000000-0000-0000-0000-000000031302",
+    "parentName": "System"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000002",
+    "name": "BI Folder",
+    "newName": "BI Folder - imported",
+    "description": "A collection of BI content.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000003",
+    "name": "BI Report",
+    "newName": "BI Report - imported",
+    "description": "A visual representation of data or a collection of visualizations.",
+    "parentId": "00000000-0000-0000-0000-000000031102",
+    "parentName": "Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000004",
+    "name": "BI Report Attribute",
+    "newName": "BI Report Attribute - imported",
+    "description": "An atomic unit of data that represents a BI report.",
+    "parentId": "00000000-0000-0000-0000-000000031027",
+    "parentName": "Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000000001",
+    "name": "BI Server",
+    "newName": "BI Server - imported",
+    "description": "A visual analytics platform for creating and storing visualizations.",
+    "parentId": "00000000-0000-0000-0000-110000000004",
+    "parentName": "Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031101",
+    "name": "Business Asset",
+    "newName": "Business Asset - imported",
+    "description": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.<div><br></div><div>Part of BG</div>",
+    "parentId": "00000000-0000-0000-0000-000000031000",
+    "parentName": "Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031105",
+    "name": "Business Dimension",
+    "newName": "Business Dimension - imported",
+    "description": "A set of reference information that categorizes and describes a Business Term in such a way that it provides context and meaningful answers to business questions.\n\nExamples: Business Process, Line of Business, Region, Business Capability",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031103",
+    "name": "Business Process",
+    "newName": "Business Process - imported",
+    "description": "A set of activities and tasks that, once completed, produce a specific result and added value to the business.\n\nExamples: Campaign Management, Talent Recruitment & Staffing",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031115",
+    "name": "Business Qualifier",
+    "newName": "Business Qualifier - imported",
+    "description": "Business Qualifiers qualify certain assets. This can be used as filters in Business Qualifier Diagrams.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031204",
+    "name": "Business Rule",
+    "newName": "Business Rule - imported",
+    "description": "Defines or constrains some aspects of specific business data. It is intended to control or influence the behavior of the business data\n\nExamples: Customer Number should be an uniquely identifiable. Country should have valid list of values. Customer Country of origin should be in the valid list of countries",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000011001",
+    "name": "Business Term",
+    "newName": "Business Term - imported",
+    "description": "A word or phrase that is used to describe something or to express a concept in a particular kind of language or branch of business.\n\nExamples: Customer, Person Purchase Count, Loan Amount.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000021002",
+    "name": "Code Set",
+    "newName": "Code Set - imported",
+    "description": "An enumerated list of valid code values for a specific topic, where the code set is the whole and the code values are parts of that whole. It is a data asset that defines the set of permissible values to be used by other data assets.\n\nExamples: Product Code Set, Person Gender Code, ISO 3166 Country Code",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000021001",
+    "name": "Code Value",
+    "newName": "Code Value - imported",
+    "description": "A valid form of representation for an asset, shortened or covert.\n\nExamples:\nIn the Person Gender Code, \"male\", \"female\", \"not known\" and \"not specified\" are represented by the valid code values \"1\", \"2\", \"0\" and \"9\".\n\"US\" is part of the \"ISO 3166 code set\" and refers to The United States of America",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031008",
+    "name": "Column",
+    "newName": "Column - imported",
+    "description": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID",
+    "parentId": "00000000-0000-0000-0000-000000031026",
+    "parentName": "Data Element"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039052",
+    "name": "Compliance Self Assessment",
+    "newName": "Compliance Self Assessment - imported",
+    "description": "According to Article 39.1.b. of GDPR, the DPO is responsible for monitoring the organization’s compliance with GDPR. This asset is used to store the characteristics of this assessment.",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
+    "parentName": "Assessment"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039038",
+    "name": "Consequence",
+    "newName": "Consequence - imported",
+    "description": "<p>Outcome of an Event, affecting objectives. This is used to document the consequences that will take effect if a risk materializes.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039058",
+    "name": "Contract",
+    "newName": "Contract - imported",
+    "description": "<p>Represents a legally binding contract between 2 or more parties.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039040",
+    "name": "Control",
+    "newName": "Control - imported",
+    "description": "<p>A measure taken to mitigate a risk. Any process, policy, device, practice, or other conditions and/or actions which maintain and/or modify risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031031",
+    "name": "Crosswalk",
+    "newName": "Crosswalk - imported",
+    "description": "Mapping between two or more Code Sets.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031002",
+    "name": "Data Asset",
+    "newName": "Data Asset - imported",
+    "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+    "parentId": "00000000-0000-0000-0000-000000031000",
+    "parentName": "Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031005",
+    "name": "Data Attribute",
+    "newName": "Data Attribute - imported",
+    "description": "A specification that defines a property of a data entity.\n\nExamples: CustomerBirthDate, EmployeeFirstName",
+    "parentId": "00000000-0000-0000-0000-000000031026",
+    "parentName": "Data Element"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031006",
+    "name": "Database",
+    "newName": "Database - imported",
+    "description": "A collection of data that is systematically organized or structured in order to make it easy to create, update and query the information.\n\nExamples: Ora_DGC_V45, SalesDB2020",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000009",
+    "name": "Database View",
+    "newName": "Database View - imported",
+    "description": "A Database View is a virtual table based on the result-set of an SQL statement.",
+    "parentId": "00000000-0000-0000-0000-000000031007",
+    "parentName": "Table"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031109",
+    "name": "Data Category",
+    "newName": "Data Category - imported",
+    "description": "A Data Category is a grouping of information relating to an individual, whether it relates to his or her private, professional or public life. Categories are not exclusive. Information may transcend multiple categories.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031113",
+    "name": "Data Concept",
+    "newName": "Data Concept - imported",
+    "description": "A data concept is a high level theoretical representation of the most common data properties of a data domain. A data concept is the business counterpart of a data attribute in a logical data dictionary, just as a data attribute is the logical counterpart of a field or column in the physical data dictionary. (Example: an address is a data concept of the data domain customer or organisation).",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031114",
+    "name": "Data Domain",
+    "newName": "Data Domain - imported",
+    "description": "Also known as Data Category or Subject area, this is a container of all the business data domains and data concepts that encompass associated terminology and definitions that an organization is trying to govern. Examples: Master Data (Customer, Product), Reference Data. Business Data Domains group Data Concepts (Year, Date, Address, Name, etc.)",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031026",
+    "name": "Data Element",
+    "newName": "Data Element - imported",
+    "description": "A unit of data that is defined for processing. It usually documents an aspect of something abstract.\n\nExamples: Person Birth Date, Person Address, Customer Account Number",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031004",
+    "name": "Data Entity",
+    "newName": "Data Entity - imported",
+    "description": "A unit of data that can be classified and can have a stated relationship to other units of data.\n\nExamples: Customer, Employee",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031001",
+    "name": "Data Issue",
+    "newName": "Data Issue - imported",
+    "description": "A problem related to issue management; also referred to as issue.",
+    "parentId": "00000000-0000-0000-0000-000000031111",
+    "parentName": "Issue"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031003",
+    "name": "Data Model",
+    "newName": "Data Model - imported",
+    "description": "A diagram that organizes data elements and standardizes how the data elements relate to one another. The Data Model is often used as a communication aid between business and technology.\n\nExamples: Customer Subject area model, Event Subject area model",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000401",
+    "name": "Dataplex Lake",
+    "newName": "Dataplex Lake - imported",
+    "description": "A lake is a centralized repository for managing enterprise data across the organization.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000402",
+    "name": "Dataplex Zone",
+    "newName": "Dataplex Zone - imported",
+    "description": "A zone represents a logical group of related assets within a lake.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031108",
+    "name": "Data Quality Dimension",
+    "newName": "Data Quality Dimension - imported",
+    "description": "Represents a criterion relevant for assessing quality and categorizes different aspects of how data quality is measured.\n\nExamples: Accuracy, Completeness, Consistency",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010012",
+    "name": "Data Quality Job",
+    "newName": "Data Quality Job - imported",
+    "description": "Representation of a job executed within CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031107",
+    "name": "Data Quality Metric",
+    "newName": "Data Quality Metric - imported",
+    "description": "An implementation of a data quality rule in a selected physical database system using a particular data quality tool.\n\nExample: CRM.ACT.Tx_ID cannot be null and has to be 9 digits and has to follow 999-99-9999 format in CRM system",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031205",
+    "name": "Data Quality Rule",
+    "newName": "Data Quality Rule - imported",
+    "description": "A specification that defines which conditions have to be met to measure the quality level of a data element for its intended use.\n\nExample: SSN must be 9 digits unique identification number for 100% of US personal accounts for Tax processing. Country of origin code should be in taxing country code set for Accounting Business area",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000001",
+    "name": "Data Set",
+    "newName": "Data Set - imported",
+    "description": "A collection of related sets of Data Assets that are Data Elements or composed of Data Elements.\n\nExample: Customer contact information",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031231",
+    "name": "Data Sharing Agreement",
+    "newName": "Data Sharing Agreement - imported",
+    "description": "An arrangement between data producers and consumers with terms and conditions including provisions concerning access and dissemination to 'pool' a set of data for specific purposes.\n\nExamples: Sales growth information that is available only for Risk team to generate internal reports only",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031025",
+    "name": "Data Structure",
+    "newName": "Data Structure - imported",
+    "description": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039031",
+    "name": "Data Subject Category",
+    "newName": "Data Subject Category - imported",
+    "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031131",
+    "name": "Data Usage",
+    "newName": "Data Usage - imported",
+    "description": "An asset that clearly documents how the data can be used between data producers and consumers for specific purpose\n\nExample: Sales growth information that is available to share for read only requirements",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031303",
+    "name": "Directory",
+    "newName": "Directory - imported",
+    "description": "An organizational structure that contains files and/or other directories.\n\nExamples: C:/Collibra, D:/Collibra/DGC",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039039",
+    "name": "DPIA",
+    "newName": "DPIA - imported",
+    "description": "<p>Asset type created to store the results of the GDPR-specific Data Privacy Impact Assessment. The DPIA assessment is designed to describe a processing activity, assess the necessity and proportionality of processing, and helps managing the risks to the rights and freedoms of natural persons, resulting from the processing of personal data.</p>",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
+    "parentName": "Assessment"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010021",
+    "name": "Duplicate Score",
+    "newName": "Duplicate Score - imported",
+    "description": "Score of the duplicate analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039010",
+    "name": "End User Tool",
+    "newName": "End User Tool - imported",
+    "description": "A way in which a user can interact with data at rest, with manual intervention, to manipulate or consolidate data.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039037",
+    "name": "Event",
+    "newName": "Event - imported",
+    "description": "<p>A potential cause of an incident that may result in harm to a system or organization (ISO 31000). This is used to document the events that can trigger a certain risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039055",
+    "name": "Event-based Review Rule",
+    "newName": "Event-based Review Rule - imported",
+    "description": "<p></p>\n<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains event based rules that determine when a review request is triggered on an asset</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "parentId": "c0e00000-0000-0000-0000-000000039057",
+    "parentName": "Review Rule"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000008",
+    "name": "Field",
+    "newName": "Field - imported",
+    "description": "An atomic unit of data that can be stored in a file.\n\nExamples: FirstName, EmpID",
+    "parentId": "00000000-0000-0000-0000-000000031026",
+    "parentName": "Data Element"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031304",
+    "name": "File",
+    "newName": "File - imported",
+    "description": "A collection of data that is treated by a computer as a unit, for the purposes of input and output.\n\nExamples: businessGlossary.xls, dataDictionary05220.csv, datacatalogv25.txt",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002900000002",
+    "name": "File Container",
+    "newName": "File Container - imported",
+    "description": "An asset type that represents Cloud File Container.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000002",
+    "name": "File Group",
+    "newName": "File Group - imported",
+    "description": "A collection of physical files which together represent a single logical file.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002900000001",
+    "name": "File Storage",
+    "newName": "File Storage - imported",
+    "description": "An asset type that represents a Cloud File Storage bucket.",
+    "parentId": "00000000-0000-0000-0000-000000031302",
+    "parentName": "System"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000003",
+    "name": "Foreign Key",
+    "newName": "Foreign Key - imported",
+    "description": "Asset type used to model the Primary key - Foreign key relations in relational databases.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000400",
+    "name": "GCP Project",
+    "newName": "GCP Project - imported",
+    "description": "An asset type representing a GCP Project.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002700000002",
+    "name": "GCS Bucket",
+    "newName": "GCS Bucket - imported",
+    "description": "An asset type that represents an Google Cloud Storage bucket which is a logical unit of storage containing Google Cloud Storage objects.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002700000001",
+    "name": "GCS File System",
+    "newName": "GCS File System - imported",
+    "description": "An asset type that represents Google Cloud Storage file system.",
+    "parentId": "00000000-0000-0000-0001-002900000001",
+    "parentName": "File Storage"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031201",
+    "name": "Governance Asset",
+    "newName": "Governance Asset - imported",
+    "description": "A type of asset that is used to monitor and advocates to maximize performance or utilization of other Business and Data assets while minimizing the risk factors in alignment with Organisational/Business goals.",
+    "parentId": "00000000-0000-0000-0000-000000031000",
+    "parentName": "Asset"
+  },
+  {
+    "id": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+    "name": "Ikea Chair",
+    "newName": "Ikea Chair - imported",
+    "parentId": "00000000-0000-0000-0000-000000031007",
+    "parentName": "Table"
+  },
+  {
+    "id": "106dba1b-aa4a-462b-8121-cc3c6562d6e4",
+    "name": "Ikea Chair Cushion",
+    "newName": "Ikea Chair Cushion - imported",
+    "parentId": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+    "parentName": "Ikea Chair"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031111",
+    "name": "Issue",
+    "newName": "Issue - imported",
+    "description": "The parent asset type of all issues.",
+    "parentId": "00000000-0000-0000-0000-000000031000",
+    "parentName": "Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031112",
+    "name": "Issue Category",
+    "newName": "Issue Category - imported",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039008",
+    "name": "Jurisdiction",
+    "newName": "Jurisdiction - imported",
+    "description": "A hierarchical representation of how a business divides its market on the basis of geography, such as regions and countries. For example, North America is segmented into USA and Canada.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000011002",
+    "name": "KPI",
+    "newName": "KPI - imported",
+    "description": "An indicator to periodically measure the success or progress of a particular activity or of an organization, towards a strategic goal.\n\nExamples: Employee Turnover, Customer Attrition, Claims Denial Rate",
+    "parentId": "00000000-0000-0000-0000-000000031104",
+    "parentName": "Measure"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039042",
+    "name": "Legal Basis",
+    "newName": "Legal Basis - imported",
+    "description": "The lawfulness of processing, as defined by Article 6 of GDPR. Personal data may be processed only if, and to the extent that, at least one legal basis applies.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039051",
+    "name": "Legitimate Interest Assessment",
+    "newName": "Legitimate Interest Assessment - imported",
+    "description": "<p>Asset type created to store the results of the GDPR-specific Legitimate Interest Assessment.</p>",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
+    "parentName": "Assessment"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031110",
+    "name": "Line of Business",
+    "newName": "Line of Business - imported",
+    "description": "Also known as Business Unit or Business Area, the Line of Business is a logical element or segment of an organization that serves a particular Business need.\n\nExamples: Asset Management, Retail, E-com, Investment Management",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000013",
+    "name": "Looker Dashboard",
+    "newName": "Looker Dashboard - imported",
+    "description": "A collection of Looker Tiles with metrics from one or more Looker Looks.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000017",
+    "name": "Looker Data Set",
+    "newName": "Looker Data Set - imported",
+    "description": "A collection of data that is used to create a Looker Look.",
+    "parentId": "00000000-0000-0000-0000-090000000009",
+    "parentName": "BI Data Set"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000018",
+    "name": "Looker Data Set Column",
+    "newName": "Looker Data Set Column - imported",
+    "description": "A column in a Looker Data Set.",
+    "parentId": "00000000-0000-0000-0000-090000000006",
+    "parentName": "BI Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000012",
+    "name": "Looker Folder",
+    "newName": "Looker Folder - imported",
+    "description": "A container that stores Looker Looks, Dashboards and other folders.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000014",
+    "name": "Looker Look",
+    "newName": "Looker Look - imported",
+    "description": "A detailed view of a Looker Data Set, with visualizations of findings and insights.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000016",
+    "name": "Looker Query",
+    "newName": "Looker Query - imported",
+    "description": "A query that creates a simple report in a Looker Tile or Looker Look.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000019",
+    "name": "Looker Report Attribute",
+    "newName": "Looker Report Attribute - imported",
+    "description": "An atomic unit of data that can be used in a Looker Query and represents a Looker Look.",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000011",
+    "name": "Looker Tenant",
+    "newName": "Looker Tenant - imported",
+    "description": "A platform to create Looker dashboards and rich visualizations.",
+    "parentId": "00000000-0000-0000-0000-090000000001",
+    "parentName": "BI Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000015",
+    "name": "Looker Tile",
+    "newName": "Looker Tile - imported",
+    "description": "An element that represents data on the Looker Dashboard.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031030",
+    "name": "Mapping Specification",
+    "newName": "Mapping Specification - imported",
+    "description": "Mapping between two or more Data Structures.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031104",
+    "name": "Measure",
+    "newName": "Measure - imported",
+    "description": "An asset type on which calculations (e.g. sum, count, average, minimum, maximum) can be made.\n\nExamples: Net Sales, Top Customers, On-hand Inventory",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000047",
+    "name": "MicroStrategy Data Attribute",
+    "newName": "MicroStrategy Data Attribute - imported",
+    "description": "A column in a MicroStrategy data model.",
+    "parentId": "00000000-0000-0000-0000-090000000006",
+    "parentName": "BI Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000048",
+    "name": "MicroStrategy Data Entity",
+    "newName": "MicroStrategy Data Entity - imported",
+    "description": "A unit of data in MicroStrategy that can be classified and can have a stated relationship to other units of data.",
+    "parentId": "00000000-0000-0000-0000-090000000007",
+    "parentName": "BI Data Entity"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000046",
+    "name": "MicroStrategy Data Model",
+    "newName": "MicroStrategy Data Model - imported",
+    "description": "A collection of data that is used to create MicroStrategy reports.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000049",
+    "name": "MicroStrategy Document",
+    "newName": "MicroStrategy Document - imported",
+    "description": "A detailed view of a MicroStrategy data model, with visualisations of findings and insights.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000043",
+    "name": "MicroStrategy Dossier",
+    "newName": "MicroStrategy Dossier - imported",
+    "description": "A collection of MicroStrategy chapters and pages.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000042",
+    "name": "MicroStrategy Folder",
+    "newName": "MicroStrategy Folder - imported",
+    "description": "A collection of MicroStrategy reports and data models.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000041",
+    "name": "MicroStrategy Project",
+    "newName": "MicroStrategy Project - imported",
+    "description": "A collection of MicroStrategy visualizations, report attributes and tables.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000044",
+    "name": "MicroStrategy Report",
+    "newName": "MicroStrategy Report - imported",
+    "description": "A detailed view of a MicroStrategy data model, with visualizations of findings and insights.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000045",
+    "name": "MicroStrategy Report Attribute",
+    "newName": "MicroStrategy Report Attribute - imported",
+    "description": "A detailed view of a MicroStrategy visualization, with findings and insights.",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000040",
+    "name": "MicroStrategy Server",
+    "newName": "MicroStrategy Server - imported",
+    "description": "A visual analytics platform for creating and storing MicroStrategy reports and data models.",
+    "parentId": "00000000-0000-0000-0000-090000000001",
+    "parentName": "BI Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000050",
+    "name": "MicroStrategy Visualisation",
+    "newName": "MicroStrategy Visualisation - imported",
+    "description": "A visualisation is a visual representation of the data in a MicroStrategy dossier, such as a grid, line chart, or heat map.",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039027",
+    "name": "Network",
+    "newName": "Network - imported",
+    "description": "A computer network or data network is a digital telecommunications network that allows nodes to share resources. In computer networks, network-connected computing devices exchange data with each other using a data link. The connections between nodes are established using either cable media or wireless media.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010015",
+    "name": "Outlier Score",
+    "newName": "Outlier Score - imported",
+    "description": "Score of the outlier analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039049",
+    "name": "Paper Document",
+    "newName": "Paper Document - imported",
+    "description": "A carrier of data in paper form",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039012",
+    "name": "Paragraph",
+    "newName": "Paragraph - imported",
+    "description": "A distinct part of a policy, often establishing a particular set of requirements. For example, roles and responsibilities should be established, as they relate to the ownership and quality of data and information for both the business and IT functions.",
+    "parentId": "00000000-0000-0000-0000-000000031206",
+    "parentName": "Standard"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000000261",
+    "name": "Party",
+    "newName": "Party - imported",
+    "description": "An association, corporation, partnership, proprietorship, trust, or individual that has legal standing. A Party has legal capacity to enter into agreements or contracts, assume obligations, incur and pay debts, sue and be sued in its own right, and to be held responsible for its actions.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010016",
+    "name": "Pattern Score",
+    "newName": "Pattern Score - imported",
+    "description": "Score of the pattern analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039059",
+    "name": "PIA",
+    "newName": "PIA - imported",
+    "description": "<p>Asset type created to store the results of the CCPA-specific Privacy Impact Assessment. The PIA assessment is designed to check if a business process adheres to data minimization and purpose limitation considerations outlined in CCPA.</p>",
+    "parentId": "c0e00000-0000-0000-0000-000000039050",
+    "parentName": "Assessment"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031202",
+    "name": "Policy",
+    "newName": "Policy - imported",
+    "description": "A statement of intent that is implemented by a set of rules. Policies are usually set by a data governance council.\n\nExamples: Personal Information must be adequately protected, Customer Data Deduplication Policy",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000002",
+    "name": "Power BI Capacity",
+    "newName": "Power BI Capacity - imported",
+    "description": "A resource that hosts Power BI Workspaces.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000008",
+    "name": "Power BI Column",
+    "newName": "Power BI Column - imported",
+    "description": "A column in a Power BI Data Model.",
+    "parentId": "00000000-0000-0000-0000-090000000006",
+    "parentName": "BI Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000004",
+    "name": "Power BI Dashboard",
+    "newName": "Power BI Dashboard - imported",
+    "description": "A collection of Power BI tiles with metrics from one or more Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000010",
+    "name": "Power BI Data Flow",
+    "newName": "Power BI Data Flow - imported",
+    "description": "A collection of tables that are created and managed in workspaces in the Power BI service.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000052",
+    "name": "Power BI Data Mart",
+    "newName": "Power BI Data Mart - imported",
+    "description": "A datamart in Power BI Service.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000007",
+    "name": "Power BI Data Model",
+    "newName": "Power BI Data Model - imported",
+    "description": "A collection of data that is used to create a Power BI report.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000020",
+    "name": "Power BI Folder",
+    "newName": "Power BI Folder - imported",
+    "description": "A collection of Power BI Report Server Dashboards, Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000021",
+    "name": "Power BI KPI",
+    "newName": "Power BI KPI - imported",
+    "description": "A key performance indicator of Power BI Report Server.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000022",
+    "name": "Power BI Parameter",
+    "newName": "Power BI Parameter - imported",
+    "description": "A column that is part of a Power BI Report Server Data Model and that is used in a KPI.",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000006",
+    "name": "Power BI Report",
+    "newName": "Power BI Report - imported",
+    "description": "A detailed view of a Power BI Data Model, with visualizations of findings and insights.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000001",
+    "name": "Power BI Server",
+    "newName": "Power BI Server - imported",
+    "description": "A visual analytics platform for creating and storing Power BI Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-090000000001",
+    "parentName": "BI Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000009",
+    "name": "Power BI Table",
+    "newName": "Power BI Table - imported",
+    "description": "A table in a Power BI Data Model.",
+    "parentId": "00000000-0000-0000-0000-090000000007",
+    "parentName": "BI Data Entity"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000005",
+    "name": "Power BI Tile",
+    "newName": "Power BI Tile - imported",
+    "description": "An element representing data on the Power BI Dashboard.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000003",
+    "name": "Power BI Workspace",
+    "newName": "Power BI Workspace - imported",
+    "description": "A collection of Power BI Dashboards, Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039043",
+    "name": "Processing Category",
+    "newName": "Processing Category - imported",
+    "description": "A category of processing activities determined by the actions taken during the processing activity.",
+    "parentId": "00000000-0000-0000-0000-000000031105",
+    "parentName": "Business Dimension"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039021",
+    "name": "Purpose",
+    "newName": "Purpose - imported",
+    "description": "An asset that describes the reason for which another asset is created or for which another asset exists.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010020",
+    "name": "Record Score",
+    "newName": "Record Score - imported",
+    "description": "Score of the record analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039014",
+    "name": "Regulation",
+    "newName": "Regulation - imported",
+    "description": "A directive made and maintained by an authority. For example, BCBS and Solvency.",
+    "parentId": "00000000-0000-0000-0000-000000031202",
+    "parentName": "Policy"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039033",
+    "name": "Remediation Action",
+    "newName": "Remediation Action - imported",
+    "description": "An action taken by the business, to counteract deficiencies or undesirable characteristics.",
+    "parentId": "c0e00000-0000-0000-0000-000000039047",
+    "parentName": "Remediation Plan"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039047",
+    "name": "Remediation Plan",
+    "newName": "Remediation Plan - imported",
+    "description": "Steps for carrying out the remediation of one or more issues. The steps typically include options for removing threats and vulnerabilities and priorities for carrying out the remediation.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031102",
+    "name": "Report",
+    "newName": "Report - imported",
+    "description": "A document containing information that is organized in a narrative, graphic, or tabular form. The document is prepared on an ad hoc, periodic, recurring, regular or as required basis. Reports may refer to specific periods, events, occurrences or subjects. They may be tailored for a specific role and display information targeted to a single point of view or a business unit.\n\nExamples: Monthly Financial Statement, Quarterly Marketing Expense Report",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031027",
+    "name": "Report Attribute",
+    "newName": "Report Attribute - imported",
+    "description": "An atomic unit of data that represents a report.\n\nExamples: ExpenseAmount, RiskAmount",
+    "parentId": "00000000-0000-0000-0000-000000031026",
+    "parentName": "Data Element"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039024",
+    "name": "Requirement",
+    "newName": "Requirement - imported",
+    "description": "",
+    "parentId": "00000000-0000-0000-0000-000000031206",
+    "parentName": "Standard"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039053",
+    "name": "Review Request",
+    "newName": "Review Request - imported",
+    "description": "Asset that groups all triggers that ask for a review or update to another asset",
+    "parentId": "00000000-0000-0000-0000-000000031111",
+    "parentName": "Issue"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039057",
+    "name": "Review Rule",
+    "newName": "Review Rule - imported",
+    "description": "Contains rules that determine when a review request will be triggered",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039035",
+    "name": "Risk",
+    "newName": "Risk - imported",
+    "description": "An uncertain event that could create damage, injury, liability, loss or any other negative occurrence that is caused by external or internal vulnerabilities (Risk Sources), which can be avoided through controls.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039036",
+    "name": "Risk Source",
+    "newName": "Risk Source - imported",
+    "description": "<p>A weakness of an asset or a group of assets that can be exploited by one or more events (ISO 31000). This is used to document the funcamantal source of a risk.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031203",
+    "name": "Rule",
+    "newName": "Rule - imported",
+    "description": "Defines or constrains an aspect of business (data) and always resolves to either true or false.\n\nExample: Where a Business Rule may state that 'A driver must be of eligible age', a Data Quality Rule Spec says 'age must be 21'.",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000001",
+    "name": "S3 Bucket",
+    "newName": "S3 Bucket - imported",
+    "description": "An asset type that represents an Amazon S3 Bucket, which is a logical unit of storage containing Amazon S3 Objects.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000000",
+    "name": "S3 File System",
+    "newName": "S3 File System - imported",
+    "description": "An asset type that represents Amazon S3.",
+    "parentId": "00000000-0000-0000-0001-002900000001",
+    "parentName": "File Storage"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000067",
+    "name": "SAC Data Attribute",
+    "newName": "SAC Data Attribute - imported",
+    "description": "A specification that defines a property of a SAP Analytics Cloud data entity.",
+    "parentId": "00000000-0000-0000-0000-090000000006",
+    "parentName": "BI Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000066",
+    "name": "SAC Data Entity",
+    "newName": "SAC Data Entity - imported",
+    "description": "A unit of data in an SAC model that can be classified and can have a stated relationship to other units of data.",
+    "parentId": "00000000-0000-0000-0000-090000000007",
+    "parentName": "BI Data Entity"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000065",
+    "name": "SAC Data Model",
+    "newName": "SAC Data Model - imported",
+    "description": "A representation of a large amount of data.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000062",
+    "name": "SAC Folder",
+    "newName": "SAC Folder - imported",
+    "description": "A collection of SAP Analytics Cloud data.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000064",
+    "name": "SAC Insight",
+    "newName": "SAC Insight - imported",
+    "description": "A representation of the displayed data source with filters, the navigation state as well as the presentation state of the table.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000063",
+    "name": "SAC Story",
+    "newName": "SAC Story - imported",
+    "description": "A visual representation of pages with charts and tables.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039044",
+    "name": "Safeguard",
+    "newName": "Safeguard - imported",
+    "description": "<p>Safeguards for transfers of data and in particular Personal Information to third parties, other countries or international organizations.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031201",
+    "parentName": "Governance Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000061",
+    "name": "SAP Container",
+    "newName": "SAP Container - imported",
+    "description": "A collection of SAP DataSphere data.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000060",
+    "name": "SAP Tenant",
+    "newName": "SAP Tenant - imported",
+    "description": "A visual analytics platform for creating and storing SAP DataSphere visualizations.",
+    "parentId": "00000000-0000-0000-0000-110000000004",
+    "parentName": "Server"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000002",
+    "name": "Schema",
+    "newName": "Schema - imported",
+    "description": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010018",
+    "name": "Schema Score",
+    "newName": "Schema Score - imported",
+    "description": "Score of the schema analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039023",
+    "name": "Security Issue",
+    "newName": "Security Issue - imported",
+    "description": "A security incident in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Security issues can involve financial information, such as credit card or bank details; Personal Health Information (PHI); Personally Identifiable Information (PII); corporate trade secrets or intellectual property. Most security issues involve overexposed and vulnerable unstructured data, such as files, documents and sensitive information.",
+    "parentId": "00000000-0000-0000-0000-000000031111",
+    "parentName": "Issue"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000004",
+    "name": "Server",
+    "newName": "Server - imported",
+    "description": "A computer program or device that supports other computer programs and their users",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010017",
+    "name": "Shape Score",
+    "newName": "Shape Score - imported",
+    "description": "Score of the shape analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039028",
+    "name": "Software",
+    "newName": "Software - imported",
+    "description": "Software is a collection of instructions that enables the user to interact with a computer or its hardware and perform tasks. For example, computer programs, libraries and related non-executable data, such as online documentation or digital media.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010019",
+    "name": "Source Score",
+    "newName": "Source Score - imported",
+    "description": "Score of the source analysis conducted as part of a job, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000029",
+    "name": "SSRS Column",
+    "newName": "SSRS Column - imported",
+    "description": "A column in an SQL Server Reporting Services Data Model.",
+    "parentId": "00000000-0000-0000-0000-100000000008",
+    "parentName": "Power BI Column"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000028",
+    "name": "SSRS Data Model",
+    "newName": "SSRS Data Model - imported",
+    "description": "A collection of data that is used to create an SQL Server Reporting Services Report.",
+    "parentId": "00000000-0000-0000-0000-100000000007",
+    "parentName": "Power BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000024",
+    "name": "SSRS Folder",
+    "newName": "SSRS Folder - imported",
+    "description": "A collection of SQL Server Reporting Services Dashboards, Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-100000000020",
+    "parentName": "Power BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000026",
+    "name": "SSRS KPI",
+    "newName": "SSRS KPI - imported",
+    "description": "A key performance indicator of SQL Server Reporting Services.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000027",
+    "name": "SSRS Parameter",
+    "newName": "SSRS Parameter - imported",
+    "description": "A column that is part of an SQL Server Reporting Services Data Model and that is used in a KPI.",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000025",
+    "name": "SSRS Report",
+    "newName": "SSRS Report - imported",
+    "description": "A detailed view of an SQL Server Reporting Services Data Model, with visualizations of findings and insights.",
+    "parentId": "00000000-0000-0000-0000-100000000006",
+    "parentName": "Power BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000023",
+    "name": "SSRS Server",
+    "newName": "SSRS Server - imported",
+    "description": "A visual analytics platform for creating and storing SQL Server Reporting Services Reports and Data Models.",
+    "parentId": "00000000-0000-0000-0000-090000000001",
+    "parentName": "BI Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-100000000030",
+    "name": "SSRS Table",
+    "newName": "SSRS Table - imported",
+    "description": "A query in an SQL Server Reporting Services Data Model.",
+    "parentId": "00000000-0000-0000-0000-100000000009",
+    "parentName": "Power BI Table"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031206",
+    "name": "Standard",
+    "newName": "Standard - imported",
+    "description": "A specific low-level mandatory action or rule that helps to enforce and support a policy.\n\nExample: All personal information has to be encrypted with a specific encryption type.",
+    "parentId": "00000000-0000-0000-0000-000000031202",
+    "parentName": "Policy"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031302",
+    "name": "System",
+    "newName": "System - imported",
+    "description": "Executable software that you can buy commercially off the shelf (COTS), or build internally, to automate one or more business functions that help run a business smoothly and efficiently.\n\nExamples: CRM, ERP, EDW",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031007",
+    "name": "Table",
+    "newName": "Table - imported",
+    "description": "An implementation of Data Entities in columns and rows, in a given database system. It is the basic structure of a relational database.\n\nExamples: Account_tbl, CUST_ADDR",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000301",
+    "name": "Tableau Dashboard",
+    "newName": "Tableau Dashboard - imported",
+    "description": "A collection of several worksheets and supporting information, shown on a single screen, so that you can simultaneously compare and monitor a variety of data.",
+    "parentId": "00000000-0000-0000-0000-110000000003",
+    "parentName": "Tableau View"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000010",
+    "name": "Tableau Data Attribute",
+    "newName": "Tableau Data Attribute - imported",
+    "description": "A specification that defines a property of a Tableau data entity. Examples: CustomerBirthDate, EmployeeFirstName.",
+    "parentId": "00000000-0000-0000-0000-090000000006",
+    "parentName": "BI Data Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000009",
+    "name": "Tableau Data Entity",
+    "newName": "Tableau Data Entity - imported",
+    "description": "An abstraction from the physical implementation of database tables, used for Tableau report creation.",
+    "parentId": "00000000-0000-0000-0000-090000000007",
+    "parentName": "BI Data Entity"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000008",
+    "name": "Tableau Data Model",
+    "newName": "Tableau Data Model - imported",
+    "description": "An abstraction from the physical implementation of database, schema, file, etc., used for Tableau report creation.",
+    "parentId": "00000000-0000-0000-0000-090000000008",
+    "parentName": "BI Data Model"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000006",
+    "name": "Tableau Data Source",
+    "newName": "Tableau Data Source - imported",
+    "description": "The link between Tableau and an external system. A Tableau data source contains the information to connect to external data, table names, the table relationships, and any customizations that you make.",
+    "parentId": "00000000-0000-0000-0000-090000000005",
+    "parentName": "BI Data Source"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000001",
+    "name": "Tableau Project",
+    "newName": "Tableau Project - imported",
+    "description": "Collection of Tableau workbooks and data sources.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000007",
+    "name": "Tableau Report Attribute",
+    "newName": "Tableau Report Attribute - imported",
+    "description": "An atomic unit of data that represents a Tableau report. Examples: ExpenseAmount, RiskAmount",
+    "parentId": "00000000-0000-0000-0000-090000000004",
+    "parentName": "BI Report Attribute"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000005",
+    "name": "Tableau Server",
+    "newName": "Tableau Server - imported",
+    "description": "A visual analytics platform for creating interactive dashboards and rich visualisations",
+    "parentId": "00000000-0000-0000-0000-090000000001",
+    "parentName": "BI Server"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000000",
+    "name": "Tableau Site",
+    "newName": "Tableau Site - imported",
+    "description": "Collection of content (workbooks, data sources, users, …) that's walled off from any other content on that instance of Tableau Server.",
+    "parentId": "00000000-0000-0000-0000-090000000002",
+    "parentName": "BI Folder"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000302",
+    "name": "Tableau Story",
+    "newName": "Tableau Story - imported",
+    "description": "Sequence of visualisations that work together to convey information.",
+    "parentId": "00000000-0000-0000-0000-110000000003",
+    "parentName": "Tableau View"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000003",
+    "name": "Tableau View",
+    "newName": "Tableau View - imported",
+    "description": "A representation of your data in a Tableau worksheet or dashboard.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0000-110000000002",
+    "name": "Tableau Workbook",
+    "newName": "Tableau Workbook - imported",
+    "description": "Collection of sheets. A sheet can be a worksheet, a dashboard or a story.",
+    "parentId": "00000000-0000-0000-0000-090000000003",
+    "parentName": "BI Report"
+  },
+  {
+    "id": "00000000-0000-0000-0001-110000000300",
+    "name": "Tableau Worksheet",
+    "newName": "Tableau Worksheet - imported",
+    "description": "A worksheet is a single sheet on which you can build views of your data.",
+    "parentId": "00000000-0000-0000-0000-110000000003",
+    "parentName": "Tableau View"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031301",
+    "name": "Technology Asset",
+    "newName": "Technology Asset - imported",
+    "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+    "parentId": "00000000-0000-0000-0000-000000031000",
+    "parentName": "Asset"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039048",
+    "name": "Threshold Assessment Rule",
+    "newName": "Threshold Assessment Rule - imported",
+    "description": "<p>Rule that allow to configure the threshold assessments that will allow you to see if impact assessment need to be done.</p>",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000039054",
+    "name": "Time-based Review Rule",
+    "newName": "Time-based Review Rule - imported",
+    "description": "<table border=\"0\" width=\"317\" cellspacing=\"0\" cellpadding=\"0\"><colgroup><col width=\"317\" /> </colgroup>\n<tbody>\n<tr><!--StartFragment-->\n<td width=\"317\" height=\"23\">Contains time based rules that determine when a review request will be triggered</td>\n<!--EndFragment--></tr>\n</tbody>\n</table>",
+    "parentId": "c0e00000-0000-0000-0000-000000039057",
+    "parentName": "Review Rule"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010013",
+    "name": "User Defined Rule Score",
+    "newName": "User Defined Rule Score - imported",
+    "description": "Score of a custom rule defined by the user, executed in CDQ.",
+    "parentId": "00000000-0000-0000-0000-000000031107",
+    "parentName": "Data Quality Metric"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000005119",
+    "name": "Validation Rule",
+    "newName": "Validation Rule - imported",
+    "description": "A rule that describes a criterion to which content in DGC has to comply.",
+    "parentId": "00000000-0000-0000-0000-000000031203",
+    "parentName": "Rule"
+  }
+]

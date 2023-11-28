@@ -1,0 +1,2112 @@
+[
+  {
+    "id": "c0e00000-0000-0000-0000-000000007394",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039008",
+    "targetTypeName": "Jurisdiction",
+    "role": "affects data subjects in",
+    "coRole": "has data subjects that are affected by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000039008affects data subjects inhas data subjects that are affected by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007003",
+    "sourceTypeId": "00000000-0000-0000-0000-000000011001",
+    "sourceTypeName": "Business Term",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "allowed value",
+    "coRole": "allowed value of",
+    "uniqueKey": "00000000-0000-0000-0000-00000001100100000000-0000-0000-0000-000000011001allowed valueallowed value of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007052",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "allowed value",
+    "coRole": "allowed value for",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000021001allowed valueallowed value for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007040",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031026",
+    "sourceTypeName": "Data Element",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "allowed value",
+    "coRole": "allowed value for",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102600000000-0000-0000-0000-000000021001allowed valueallowed value for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007051",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000021002",
+    "targetTypeName": "Code Set",
+    "role": "allowed value set",
+    "coRole": "allowed value set for",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000021002allowed value setallowed value set for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007039",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031026",
+    "sourceTypeName": "Data Element",
+    "targetTypeId": "00000000-0000-0000-0000-000000021002",
+    "targetTypeName": "Code Set",
+    "role": "allowed value set",
+    "coRole": "applies to",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102600000000-0000-0000-0000-000000021002allowed value setapplies to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007431",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039031",
+    "targetTypeName": "Data Subject Category",
+    "role": "Allows processing for",
+    "coRole": "Can be processed under",
+    "description": "This relation is used to link a data sharing agreement to the categories of data subjects for which processing is arranged under the data sharing agreement.",
+    "uniqueKey": "00000000-0000-0000-0000-000000031231c0e00000-0000-0000-0000-000000039031Allows processing forCan be processed under"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007415",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "00000000-0000-0000-0000-000000031109",
+    "targetTypeName": "Data Category",
+    "role": "Arranges processing of",
+    "coRole": "Processing allowed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003123100000000-0000-0000-0000-000000031109Arranges processing ofProcessing allowed by"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000006",
+    "sourceTypeId": "00000000-0000-0000-0001-002900000002",
+    "sourceTypeName": "File Container",
+    "targetTypeId": "00000000-0000-0000-0000-090000000002",
+    "targetTypeName": "BI Folder",
+    "role": "assembles",
+    "coRole": "is assembled in",
+    "description": "This relation is used to link multiple Folder assets to a File Container asset.",
+    "uniqueKey": "00000000-0000-0000-0001-00290000000200000000-0000-0000-0000-090000000002assemblesis assembled in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000001",
+    "sourceTypeId": "00000000-0000-0000-0000-090000000002",
+    "sourceTypeName": "BI Folder",
+    "targetTypeId": "00000000-0000-0000-0000-090000000002",
+    "targetTypeName": "BI Folder",
+    "role": "assembles",
+    "coRole": "is assembled in",
+    "uniqueKey": "00000000-0000-0000-0000-09000000000200000000-0000-0000-0000-090000000002assemblesis assembled in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007008",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "sourceTypeName": "Line of Business",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "associates",
+    "coRole": "is associated with",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111000000000-0000-0000-0000-000000031101associatesis associated with"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007330",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "authorizes",
+    "coRole": "is authorized by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031103authorizesis authorized by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007436",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031231",
+    "targetTypeName": "Data Sharing Agreement",
+    "role": "can be processed in accordance to",
+    "coRole": "allows processing of",
+    "description": "Lists the data sets that should follow the terms of the Data Sharing Agreement",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031231can be processed in accordance toallows processing of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007372",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceTypeName": "Risk",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039038",
+    "targetTypeName": "Consequence",
+    "role": "can result in ",
+    "coRole": "can be result of",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039035c0e00000-0000-0000-0000-000000039038can result in can be result of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007067",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031111",
+    "sourceTypeName": "Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031112",
+    "targetTypeName": "Issue Category",
+    "role": "categorized by",
+    "coRole": "categorizes",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111100000000-0000-0000-0000-000000031112categorized bycategorizes"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007315",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031109",
+    "sourceTypeName": "Data Category",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "categorizes",
+    "coRole": "is categorized by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110900000000-0000-0000-0000-000000031002categorizesis categorized by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007316",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031109",
+    "sourceTypeName": "Data Category",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "categorizes",
+    "coRole": "is categorized by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110900000000-0000-0000-0000-000000031101categorizesis categorized by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007370",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceTypeName": "Risk",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039037",
+    "targetTypeName": "Event",
+    "role": "caused by",
+    "coRole": "causes",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039035c0e00000-0000-0000-0000-000000039037caused bycauses"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007053",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031108",
+    "targetTypeName": "Data Quality Dimension",
+    "role": "classified by",
+    "coRole": "classifies",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000031108classified byclassifies"
+  },
+  {
+    "id": "f7e0a26b-eed6-4ba9-9152-4a1363226640",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031107",
+    "sourceTypeName": "Data Quality Metric",
+    "targetTypeId": "00000000-0000-0000-0000-000000031108",
+    "targetTypeName": "Data Quality Dimension",
+    "role": "classified by",
+    "coRole": "classifies",
+    "description": "ENTERPRISE-SCALE DATA QUALITY & OBSERVABILITY",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110700000000-0000-0000-0000-000000031108classified byclassifies"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007007",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "classifies",
+    "coRole": "is classified by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031000classifiesis classified by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007018",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031201",
+    "targetTypeName": "Governance Asset",
+    "role": "complies to",
+    "coRole": "applies to",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031201complies toapplies to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007406",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031202",
+    "targetTypeName": "Policy",
+    "role": "complies to",
+    "coRole": "applies to",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031202complies toapplies to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007411",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "sourceTypeName": "Party",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039051",
+    "targetTypeName": "Legitimate Interest Assessment",
+    "role": "considered as controller or third party in",
+    "coRole": "relevant controller or third party",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000000261c0e00000-0000-0000-0000-000000039051considered as controller or third party inrelevant controller or third party"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007410",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039021",
+    "sourceTypeName": "Purpose",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039051",
+    "targetTypeName": "Legitimate Interest Assessment",
+    "role": "considered as purpose in",
+    "coRole": "relevant purpose",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039021c0e00000-0000-0000-0000-000000039051considered as purpose inrelevant purpose"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007412",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031109",
+    "sourceTypeName": "Data Category",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039051",
+    "targetTypeName": "Legitimate Interest Assessment",
+    "role": "considered data category in",
+    "coRole": "relevant data categories",
+    "uniqueKey": "00000000-0000-0000-0000-000000031109c0e00000-0000-0000-0000-000000039051considered data category inrelevant data categories"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007413",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039031",
+    "sourceTypeName": "Data Subject Category",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039051",
+    "targetTypeName": "Legitimate Interest Assessment",
+    "role": "considered data subject category in",
+    "coRole": "relevant data subject categories",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039031c0e00000-0000-0000-0000-000000039051considered data subject category inrelevant data subject categories"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007091",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
+    "sourceTypeName": "Foreign Key Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeName": "Column",
+    "role": "constrains",
+    "coRole": "constrains",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750400000000-0000-0000-0000-000000031008constrainsconstrains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007063",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "consumes",
+    "coRole": "is consumed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031101consumesis consumed by"
+  },
+  {
+    "id": "43a8f97d-1540-4e0c-a0e9-022fb31f8cc7",
+    "sourceTypeId": "752466c9-ec22-4510-802d-77de062cabe7",
+    "sourceTypeName": "Analytics Model",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "targetTypeName": "Data Set",
+    "role": "consumes",
+    "coRole": "is consumed by",
+    "description": "SIDE TRACK 6: Creating Analytics Models",
+    "uniqueKey": "752466c9-ec22-4510-802d-77de062cabe700000000-0000-0000-0001-000400000001consumesis consumed by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007434",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "sourceTypeName": "Party",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "targetTypeName": "Data Set",
+    "role": "consumes",
+    "coRole": "consumed by",
+    "description": "Party consumes the Data Set",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000000026100000000-0000-0000-0001-000400000001consumesconsumed by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007314",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "consumes",
+    "coRole": "is consumed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031002consumesis consumed by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007058",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031027",
+    "sourceTypeName": "Report Attribute",
+    "targetTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeName": "Report",
+    "role": "contained in",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102700000000-0000-0000-0000-000000031102contained incontains"
+  },
+  {
+    "id": "cd000000-0000-0000-0000-000000000021",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031004",
+    "targetTypeName": "Data Entity",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031004containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000015",
+    "sourceTypeId": "00000000-0000-0000-0000-090000000003",
+    "sourceTypeName": "BI Report",
+    "targetTypeId": "00000000-0000-0000-0000-090000000008",
+    "targetTypeName": "BI Data Model",
+    "role": "contains",
+    "coRole": "is contained in",
+    "uniqueKey": "00000000-0000-0000-0000-09000000000300000000-0000-0000-0000-090000000008containsis contained in"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002700000002",
+    "sourceTypeId": "00000000-0000-0000-0001-110000000402",
+    "sourceTypeName": "Dataplex Zone",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-11000000040200000000-0000-0000-0000-000000031007containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007023",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031304",
+    "sourceTypeName": "File",
+    "targetTypeId": "00000000-0000-0000-0001-000400000008",
+    "targetTypeName": "Field",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130400000000-0000-0000-0001-000400000008containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002700000001",
+    "sourceTypeId": "00000000-0000-0000-0001-110000000401",
+    "sourceTypeName": "Dataplex Lake",
+    "targetTypeId": "00000000-0000-0000-0001-110000000402",
+    "targetTypeName": "Dataplex Zone",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-11000000040100000000-0000-0000-0001-110000000402containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010023",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeName": "Column",
+    "role": "contains",
+    "coRole": "is contained by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031008containsis contained by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000020",
+    "sourceTypeId": "00000000-0000-0000-0000-110000000002",
+    "sourceTypeName": "Tableau Workbook",
+    "targetTypeId": "00000000-0000-0000-0000-110000000008",
+    "targetTypeName": "Tableau Data Model",
+    "role": "contains",
+    "coRole": "contained in",
+    "uniqueKey": "00000000-0000-0000-0000-11000000000200000000-0000-0000-0000-110000000008containscontained in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007043",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000002",
+    "sourceTypeName": "Schema",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000200000000-0000-0000-0000-000000031007containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000000",
+    "sourceTypeId": "00000000-0000-0000-0001-002900000001",
+    "sourceTypeName": "File Storage",
+    "targetTypeId": "00000000-0000-0000-0001-002900000002",
+    "targetTypeName": "File Container",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00290000000100000000-0000-0000-0001-002900000002containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000005",
+    "sourceTypeId": "00000000-0000-0000-0001-002400000002",
+    "sourceTypeName": "File Group",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00240000000200000000-0000-0000-0000-000000031007containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000001",
+    "sourceTypeId": "00000000-0000-0000-0001-002900000002",
+    "sourceTypeName": "File Container",
+    "targetTypeId": "00000000-0000-0000-0001-002900000002",
+    "targetTypeName": "File Container",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00290000000200000000-0000-0000-0001-002900000002containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007060",
+    "sourceTypeId": "00000000-0000-0000-0001-002900000002",
+    "sourceTypeName": "File Container",
+    "targetTypeId": "00000000-0000-0000-0000-000000031304",
+    "targetTypeName": "File",
+    "role": "contains",
+    "coRole": "contained in",
+    "uniqueKey": "00000000-0000-0000-0001-00290000000200000000-0000-0000-0000-000000031304containscontained in"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000002",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031304",
+    "sourceTypeName": "File",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130400000000-0000-0000-0000-000000031007containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000004",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031303",
+    "sourceTypeName": "Directory",
+    "targetTypeId": "00000000-0000-0000-0001-002400000002",
+    "targetTypeName": "File Group",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130300000000-0000-0000-0001-002400000002containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002600000003",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031303",
+    "sourceTypeName": "Directory",
+    "targetTypeId": "00000000-0000-0000-0000-000000031303",
+    "targetTypeName": "Directory",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130300000000-0000-0000-0000-000000031303containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007062",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "targetTypeName": "Data Element",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031026containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007047",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
+    "sourceTypeName": "Data Entity",
+    "targetTypeId": "00000000-0000-0000-0000-000000031005",
+    "targetTypeName": "Data Attribute",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100400000000-0000-0000-0000-000000031005containsis part of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000014",
+    "sourceTypeId": "00000000-0000-0000-0000-090000000002",
+    "sourceTypeName": "BI Folder",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "contains",
+    "coRole": "contained in",
+    "uniqueKey": "00000000-0000-0000-0000-09000000000200000000-0000-0000-0000-000000031002containscontained in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007196",
+    "sourceTypeId": "00000000-0000-0000-0000-090000000008",
+    "sourceTypeName": "BI Data Model",
+    "targetTypeId": "00000000-0000-0000-0000-090000000006",
+    "targetTypeName": "BI Data Attribute",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-09000000000800000000-0000-0000-0000-090000000006containsis part of"
+  },
+  {
+    "id": "cd000000-0000-0000-0000-000000000025",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031114",
+    "targetTypeName": "Data Domain",
+    "role": "contains",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031114containsis part of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007333",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "controller",
+    "coRole": "is controller of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000000261controlleris controller of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007082",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007503",
+    "sourceTypeName": "Code Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031031",
+    "targetTypeName": "Crosswalk",
+    "role": "crosswalk",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750300000000-0000-0000-0000-000000031031crosswalkundefined"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007409",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031110",
+    "targetTypeName": "Line of Business",
+    "role": "data subject rights managed by",
+    "coRole": "manages data subject rights of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031110data subject rights managed bymanages data subject rights of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007381",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039042",
+    "sourceTypeName": "Legal Basis",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "determines lawfulness of",
+    "coRole": "lawfulness determined by",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003904200000000-0000-0000-0000-000000031103determines lawfulness oflawfulness determined by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007433",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039058",
+    "sourceTypeName": "Contract",
+    "targetTypeId": "00000000-0000-0000-0000-000000031231",
+    "targetTypeName": "Data Sharing Agreement",
+    "role": "enforces",
+    "coRole": "is enforced by",
+    "description": "Indicates which contract enforces the Data Sharing Agreement with a third party.",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003905800000000-0000-0000-0000-000000031231enforcesis enforced by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007016",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031107",
+    "targetTypeName": "Data Quality Metric",
+    "role": "executed by",
+    "coRole": "executes",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000031107executed byexecutes"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007009",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031201",
+    "targetTypeName": "Governance Asset",
+    "role": "governed by",
+    "coRole": "governs",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031201governed bygoverns"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007085",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007501",
+    "sourceTypeName": "Data Usage",
+    "targetTypeId": "00000000-0000-0000-0000-000000031203",
+    "targetTypeName": "Rule",
+    "role": "governed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750100000000-0000-0000-0000-000000031203governed byundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007066",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "targetTypeName": "Data Element",
+    "role": "governs",
+    "coRole": "is governed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000031026governsis governed by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010022",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeName": "Column",
+    "role": "governs",
+    "coRole": "is governed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000031008governsis governed by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010025",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-090000010012",
+    "targetTypeName": "Data Quality Job",
+    "role": "governs",
+    "coRole": "is governed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-090000010012governsis governed by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007054",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeName": "Technology Asset",
+    "role": "groups",
+    "coRole": "is grouped by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031301groupsis grouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007017",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "groups",
+    "coRole": "is grouped by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031002groupsis grouped by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007383",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039040",
+    "sourceTypeName": "Control",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039040",
+    "targetTypeName": "Control",
+    "role": "groups",
+    "coRole": "grouped by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039040c0e00000-0000-0000-0000-000000039040groupsgrouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000004",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "sourceTypeName": "Report",
+    "targetTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeName": "Report",
+    "role": "groups",
+    "coRole": "is grouped into",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110200000000-0000-0000-0000-000000031102groupsis grouped into"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000002",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeName": "Report",
+    "role": "groups",
+    "coRole": "is grouped into",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031102groupsis grouped into"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007022",
+    "sourceTypeId": "00000000-0000-0000-0000-000000021001",
+    "sourceTypeName": "Code Value",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "groups",
+    "coRole": "grouped by",
+    "uniqueKey": "00000000-0000-0000-0000-00000002100100000000-0000-0000-0000-000000021001groupsgrouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007056",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031201",
+    "sourceTypeName": "Governance Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031201",
+    "targetTypeName": "Governance Asset",
+    "role": "groups",
+    "coRole": "is grouped by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120100000000-0000-0000-0000-000000031201groupsis grouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002700000000",
+    "sourceTypeId": "00000000-0000-0000-0001-110000000400",
+    "sourceTypeName": "GCP Project",
+    "targetTypeId": "00000000-0000-0000-0001-110000000401",
+    "targetTypeName": "Dataplex Lake",
+    "role": "groups",
+    "coRole": "is grouped by",
+    "uniqueKey": "00000000-0000-0000-0001-11000000040000000000-0000-0000-0001-110000000401groupsis grouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007021",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
+    "sourceTypeName": "Business Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "groups",
+    "coRole": "grouped by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110100000000-0000-0000-0000-000000031101groupsgrouped by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007024",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0001-000400000002",
+    "targetTypeName": "Schema",
+    "role": "has",
+    "coRole": "belongs to",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0001-000400000002hasbelongs to"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007030",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
+    "sourceTypeName": "Business Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000011003",
+    "targetTypeName": "Acronym",
+    "role": "has acronym",
+    "coRole": "is acronym for",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110100000000-0000-0000-0000-000000011003has acronymis acronym for"
+  },
+  {
+    "id": "b97d911d-089e-4b61-9a7c-532b0bb2d5c1",
+    "sourceTypeId": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+    "sourceTypeName": "Ikea Chair",
+    "targetTypeId": "106dba1b-aa4a-462b-8121-cc3c6562d6e4",
+    "targetTypeName": "Ikea Chair Cushion",
+    "role": "has an",
+    "coRole": "sits on an",
+    "uniqueKey": "64ae9f65-79b8-420d-9e85-1a477c8067df106dba1b-aa4a-462b-8121-cc3c6562d6e4has ansits on an"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007002",
+    "sourceTypeId": "00000000-0000-0000-0000-000000011001",
+    "sourceTypeName": "Business Term",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "has code",
+    "coRole": "is code for",
+    "uniqueKey": "00000000-0000-0000-0000-00000001100100000000-0000-0000-0000-000000021001has codeis code for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007033",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031111",
+    "sourceTypeName": "Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031111",
+    "targetTypeName": "Issue",
+    "role": "has duplicate",
+    "coRole": "is duplicate for",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111100000000-0000-0000-0000-000000031111has duplicateis duplicate for"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007430",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039031",
+    "sourceTypeName": "Data Subject Category",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "targetTypeName": "Data Set",
+    "role": "has information in",
+    "coRole": "contains data subject",
+    "description": "This relation is used to link a data set to the categories of data subjects that are available in this data set.",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003903100000000-0000-0000-0001-000400000001has information incontains data subject"
+  },
+  {
+    "id": "cd000000-0000-0000-0000-000000000026",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031131",
+    "sourceTypeName": "Data Usage",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039021",
+    "targetTypeName": "Purpose",
+    "role": "has purpose",
+    "coRole": "is purpose for",
+    "uniqueKey": "00000000-0000-0000-0000-000000031131c0e00000-0000-0000-0000-000000039021has purposeis purpose for"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007405",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039044",
+    "targetTypeName": "Safeguard",
+    "role": "has safeguards for cross border data transfers",
+    "coRole": "safeguards cross border data transfer for",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000039044has safeguards for cross border data transferssafeguards cross border data transfer for"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007371",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceTypeName": "Risk",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039036",
+    "targetTypeName": "Risk Source",
+    "role": "has source",
+    "coRole": "source of",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039035c0e00000-0000-0000-0000-000000039036has sourcesource of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007438",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceTypeName": "Risk",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "has source",
+    "coRole": "is source of",
+    "description": "Party can also be a source of risk",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039035c0e00000-0000-0000-0000-000000000261has sourceis source of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007095",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031114",
+    "sourceTypeName": "Data Domain",
+    "targetTypeId": "00000000-0000-0000-0000-000000031114",
+    "targetTypeName": "Data Domain",
+    "role": "has subtype",
+    "coRole": "is subtype of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111400000000-0000-0000-0000-000000031114has subtypeis subtype of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007086",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007500",
+    "sourceTypeName": "Fact Type",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "Head",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750000000000-0000-0000-0000-000000031000Headundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000000",
+    "sourceTypeId": "00000000-0000-0000-0000-110000000004",
+    "sourceTypeName": "Server",
+    "targetTypeId": "00000000-0000-0000-0000-000000031105",
+    "targetTypeName": "Business Dimension",
+    "role": "hosts",
+    "coRole": "is hosted in",
+    "uniqueKey": "00000000-0000-0000-0000-11000000000400000000-0000-0000-0000-000000031105hostsis hosted in"
+  },
+  {
+    "id": "2fc36959-8306-461a-994f-033e6531a476",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031104",
+    "sourceTypeName": "Measure",
+    "targetTypeId": "00000000-0000-0000-0000-000000031104",
+    "targetTypeName": "Measure",
+    "role": "Impacted by",
+    "coRole": "impacts",
+    "description": "Finance Metrics glossary",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110400000000-0000-0000-0000-000000031104Impacted byimpacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007398",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "impacts",
+    "coRole": "impacted by",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003902300000000-0000-0000-0000-000000031101impactsimpacted by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007403",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeName": "Technology Asset",
+    "role": "impacts",
+    "coRole": "impacted by",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003902300000000-0000-0000-0000-000000031301impactsimpacted by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007025",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031111",
+    "sourceTypeName": "Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "impacts",
+    "coRole": "impacted by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111100000000-0000-0000-0000-000000031000impactsimpacted by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007396",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "impacts controller",
+    "coRole": "is controller impacted by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000000261impacts controlleris controller impacted by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007395",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "impacts joint controller",
+    "coRole": "is joint controller impacted by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000000261impacts joint controlleris joint controller impacted by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007397",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "impacts processor",
+    "coRole": "is processor impacted by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000000261impacts processoris processor impacted by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007005",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeName": "Technology Asset",
+    "role": "implemented in",
+    "coRole": "implements",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031301implemented inimplements"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000005",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031302",
+    "sourceTypeName": "System",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "targetTypeName": "Data Set",
+    "role": "implements",
+    "coRole": "is implemented in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130200000000-0000-0000-0001-000400000001implementsis implemented in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000009",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031302",
+    "sourceTypeName": "System",
+    "targetTypeId": "00000000-0000-0000-0000-000000031003",
+    "targetTypeName": "Data Model",
+    "role": "implements",
+    "coRole": "is implemented in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130200000000-0000-0000-0000-000000031003implementsis implemented in"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007367",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "00000000-0000-0000-0000-000000031105",
+    "targetTypeName": "Business Dimension",
+    "role": "is accepted by",
+    "coRole": "accepts",
+    "description": "This attribute provide info about the Data Sharing Agreements Accepted by Business Dimension (Parties).",
+    "uniqueKey": "00000000-0000-0000-0000-00000003123100000000-0000-0000-0000-000000031105is accepted byaccepts"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007097",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031305",
+    "targetTypeName": "Assessment Review",
+    "role": "is assessed by",
+    "coRole": "assesses",
+    "description": "This relation is used to link an asset to an Assessment Review asset.",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031305is assessed byassesses"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007389",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039050",
+    "targetTypeName": "Assessment",
+    "role": "is assessed by",
+    "coRole": "assesses",
+    "uniqueKey": "00000000-0000-0000-0000-000000031000c0e00000-0000-0000-0000-000000039050is assessed byassesses"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007386",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "sourceTypeName": "Line of Business",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "is associated with",
+    "coRole": "associated with",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111000000000-0000-0000-0000-000000031103is associated withassociated with"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007376",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039043",
+    "targetTypeName": "Processing Category",
+    "role": "is categorised by",
+    "coRole": "categorizes",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000039043is categorised bycategorizes"
+  },
+  {
+    "id": "c0e00000-0000-0000-0002-000000000003",
+    "sourceTypeId": "c0e00000-0000-0000-0002-000000000001",
+    "sourceTypeName": "Path to Review Asset Type",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039055",
+    "targetTypeName": "Event-based Review Rule",
+    "role": "is configured by",
+    "coRole": "configures",
+    "uniqueKey": "c0e00000-0000-0000-0002-000000000001c0e00000-0000-0000-0000-000000039055is configured byconfigures"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007013",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031202",
+    "sourceTypeName": "Policy",
+    "targetTypeId": "00000000-0000-0000-0000-000000031203",
+    "targetTypeName": "Rule",
+    "role": "is enforced by",
+    "coRole": "enforces",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120200000000-0000-0000-0000-000000031203is enforced byenforces"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007061",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031131",
+    "targetTypeName": "Data Usage",
+    "role": "is essential for",
+    "coRole": "requires",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031131is essential forrequires"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007059",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031131",
+    "targetTypeName": "Data Usage",
+    "role": "is essential for",
+    "coRole": "is constrained by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031131is essential foris constrained by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010024",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031205",
+    "sourceTypeName": "Data Quality Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031107",
+    "targetTypeName": "Data Quality Metric",
+    "role": "is executed by",
+    "coRole": "executes",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120500000000-0000-0000-0000-000000031107is executed byexecutes"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007338",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039008",
+    "targetTypeName": "Jurisdiction",
+    "role": "is hosted in",
+    "coRole": "hosts",
+    "uniqueKey": "00000000-0000-0000-0000-000000031301c0e00000-0000-0000-0000-000000039008is hosted inhosts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007369",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is impacted by",
+    "coRole": "impacts",
+    "uniqueKey": "00000000-0000-0000-0000-000000031000c0e00000-0000-0000-0000-000000039035is impacted byimpacts"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007014",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031203",
+    "sourceTypeName": "Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000031204",
+    "targetTypeName": "Business Rule",
+    "role": "is implemented by",
+    "coRole": "implements",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120300000000-0000-0000-0000-000000031204is implemented byimplements"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007380",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039047",
+    "sourceTypeName": "Remediation Plan",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "is implemented by",
+    "coRole": "implements",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003904700000000-0000-0000-0000-000000031000is implemented byimplements"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007012",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031206",
+    "sourceTypeName": "Standard",
+    "targetTypeId": "00000000-0000-0000-0000-000000031202",
+    "targetTypeName": "Policy",
+    "role": "is included in",
+    "coRole": "includes",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120600000000-0000-0000-0000-000000031202is included inincludes"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007437",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "sourceTypeName": "Party",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039058",
+    "targetTypeName": "Contract",
+    "role": "is legally bounded by",
+    "coRole": "agreeing parties",
+    "description": "Allows to document the relations between the parties that agreed to the contract.",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000000261c0e00000-0000-0000-0000-000000039058is legally bounded byagreeing parties"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007337",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039008",
+    "targetTypeName": "Jurisdiction",
+    "role": "is located in",
+    "coRole": "is applied to",
+    "uniqueKey": "00000000-0000-0000-0000-000000031105c0e00000-0000-0000-0000-000000039008is located inis applied to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007357",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031111",
+    "sourceTypeName": "Issue",
+    "targetTypeId": "00000000-0000-0000-0000-000000031201",
+    "targetTypeName": "Governance Asset",
+    "role": "is mitigated by",
+    "coRole": "mitigates",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111100000000-0000-0000-0000-000000031201is mitigated bymitigates"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007402",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "is owned by",
+    "coRole": "is owner of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031301c0e00000-0000-0000-0000-000000000261is owned byis owner of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007093",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
+    "sourceTypeName": "Foreign Key Mapping",
+    "targetTypeId": "00000000-0000-0000-0001-000400000003",
+    "targetTypeName": "Foreign Key",
+    "role": "is part of",
+    "coRole": "is part of",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750400000000-0000-0000-0001-000400000003is part ofis part of"
+  },
+  {
+    "id": "06a32848-fba6-4fa5-89b1-6b9952ff507b",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031005",
+    "sourceTypeName": "Data Attribute",
+    "targetTypeId": "00000000-0000-0000-0000-000000031109",
+    "targetTypeName": "Data Category",
+    "role": "is part of",
+    "coRole": "contains",
+    "description": "Fast Track - Collibra Data Intelligence Cloud Demo (Catalog Lineage - Business and Privacy Context)",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100500000000-0000-0000-0000-000000031109is part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007045",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031007",
+    "sourceTypeName": "Table",
+    "targetTypeId": "00000000-0000-0000-0000-000000031006",
+    "targetTypeName": "Database",
+    "role": "is part of",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100700000000-0000-0000-0000-000000031006is part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007046",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
+    "sourceTypeName": "Data Entity",
+    "targetTypeId": "00000000-0000-0000-0000-000000031003",
+    "targetTypeName": "Data Model",
+    "role": "is part of",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100400000000-0000-0000-0000-000000031003is part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007041",
+    "sourceTypeId": "00000000-0000-0000-0000-000000021001",
+    "sourceTypeName": "Code Value",
+    "targetTypeId": "00000000-0000-0000-0000-000000021002",
+    "targetTypeName": "Code Set",
+    "role": "is part of",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000002100100000000-0000-0000-0000-000000021002is part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007042",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031008",
+    "sourceTypeName": "Column",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "is part of",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100800000000-0000-0000-0000-000000031007is part ofcontains"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007011",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031026",
+    "sourceTypeName": "Data Element",
+    "targetTypeId": "00000000-0000-0000-0000-000000031025",
+    "targetTypeName": "Data Structure",
+    "role": "is part of",
+    "coRole": "contains",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102600000000-0000-0000-0000-000000031025is part ofcontains"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007424",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "This attribute provide info for one of the privacy Pillar in between Risk and Business Process",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000039035is potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007423",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "sourceTypeName": "Line of Business",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "This attribute provide info for one of the privacy Pillar in between Risk and People",
+    "uniqueKey": "00000000-0000-0000-0000-000000031110c0e00000-0000-0000-0000-000000039035is potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007368",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "uniqueKey": "00000000-0000-0000-0000-000000031000c0e00000-0000-0000-0000-000000039035is potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007426",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "This attribute provide info for one of the privacy Pillar in between Risk and Data Set",
+    "uniqueKey": "00000000-0000-0000-0001-000400000001c0e00000-0000-0000-0000-000000039035is potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007425",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "is potentially impacted by",
+    "coRole": "potentially impacts",
+    "description": "This attribute provide info for one of the privacy Pillar in between Risk and Technology",
+    "uniqueKey": "00000000-0000-0000-0000-000000031301c0e00000-0000-0000-0000-000000039035is potentially impacted bypotentially impacts"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007382",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039021",
+    "sourceTypeName": "Purpose",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "is reason for",
+    "coRole": "performed for",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003902100000000-0000-0000-0000-000000031103is reason forperformed for"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007373",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "sourceTypeName": "Risk",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039047",
+    "targetTypeName": "Remediation Plan",
+    "role": "is remedied by",
+    "coRole": "is remedy for",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039035c0e00000-0000-0000-0000-000000039047is remedied byis remedy for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007057",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "00000000-0000-0000-0000-000000031105",
+    "targetTypeName": "Business Dimension",
+    "role": "is requested by",
+    "coRole": "requests",
+    "description": "This attribute provide info about the Data Sharing Agreements requested by Business Dimension (Parties).",
+    "uniqueKey": "00000000-0000-0000-0000-00000003123100000000-0000-0000-0000-000000031105is requested byrequests"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007422",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "is Requested by",
+    "coRole": "Requests",
+    "description": "This attribute provide info about the Data Sharing Agreements requested by Parties",
+    "uniqueKey": "00000000-0000-0000-0000-000000031231c0e00000-0000-0000-0000-000000000261is Requested byRequests"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007429",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031231",
+    "targetTypeName": "Data Sharing Agreement",
+    "role": "is required by",
+    "coRole": "requires",
+    "description": "This relation provide information about the data assets which are required by Data Sharing Agreement",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031231is required byrequires"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007055",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031131",
+    "sourceTypeName": "Data Usage",
+    "targetTypeId": "00000000-0000-0000-0000-000000031231",
+    "targetTypeName": "Data Sharing Agreement",
+    "role": "is required by",
+    "coRole": "requires",
+    "uniqueKey": "00000000-0000-0000-0000-00000003113100000000-0000-0000-0000-000000031231is required byrequires"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007427",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "sourceTypeName": "Line of Business",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039033",
+    "targetTypeName": "Remediation Action",
+    "role": "is responsible for",
+    "coRole": "is responsibility of",
+    "description": "This attribute provide info which Line of Business is responsible for the mentioned Remediation Action",
+    "uniqueKey": "00000000-0000-0000-0000-000000031110c0e00000-0000-0000-0000-000000039033is responsible foris responsibility of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007010",
+    "sourceTypeId": "00000000-0000-0000-0000-000000005014",
+    "sourceTypeName": "Role Type",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "is responsible for",
+    "coRole": "is responsibility of",
+    "uniqueKey": "00000000-0000-0000-0000-00000000501400000000-0000-0000-0000-000000031000is responsible foris responsibility of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000008",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031027",
+    "sourceTypeName": "Report Attribute",
+    "targetTypeId": "00000000-0000-0000-0000-000000031027",
+    "targetTypeName": "Report Attribute",
+    "role": "is source for",
+    "coRole": "is target of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102700000000-0000-0000-0000-000000031027is source foris target of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000022",
+    "sourceTypeId": "00000000-0000-0000-0000-090000000008",
+    "sourceTypeName": "BI Data Model",
+    "targetTypeId": "00000000-0000-0000-0000-090000000008",
+    "targetTypeName": "BI Data Model",
+    "role": "is source for",
+    "coRole": "sources",
+    "uniqueKey": "00000000-0000-0000-0000-09000000000800000000-0000-0000-0000-090000000008is source forsources"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000011",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031008",
+    "sourceTypeName": "Column",
+    "targetTypeId": "00000000-0000-0000-0000-000000031005",
+    "targetTypeName": "Data Attribute",
+    "role": "is source for",
+    "coRole": "is target of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100800000000-0000-0000-0000-000000031005is source foris target of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000013",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-090000000003",
+    "targetTypeName": "BI Report",
+    "role": "is source for",
+    "coRole": "source",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-090000000003is source forsource"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007374",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "is succeeded by",
+    "coRole": "is preceded by",
+    "description": "...",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031103is succeeded byis preceded by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007348",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "joint controller",
+    "coRole": "is joint controller of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000000261joint controlleris joint controller of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007416",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039008",
+    "targetTypeName": "Jurisdiction",
+    "role": "Location of processing",
+    "coRole": "Is location of processing for data sharing agreement",
+    "uniqueKey": "00000000-0000-0000-0000-000000031231c0e00000-0000-0000-0000-000000039008Location of processingIs location of processing for data sharing agreement"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007090",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007502",
+    "sourceTypeName": "Field Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031030",
+    "targetTypeName": "Mapping Specification",
+    "role": "mapping specification",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750200000000-0000-0000-0000-000000031030mapping specificationundefined"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007384",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039040",
+    "sourceTypeName": "Control",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039035",
+    "targetTypeName": "Risk",
+    "role": "mitigates",
+    "coRole": "mitigated by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039040c0e00000-0000-0000-0000-000000039035mitigatesmitigated by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007331",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031103",
+    "targetTypeName": "Business Process",
+    "role": "performs",
+    "coRole": "is performed by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031103performsis performed by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007366",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039031",
+    "targetTypeName": "Data Subject Category",
+    "role": "processes information about",
+    "coRole": "is processed by",
+    "description": "Makes the link between a Business Process and the Data Subject Categories of which data is processed by the process.",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000039031processes information aboutis processed by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007334",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "processor",
+    "coRole": "is processor of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000000261processoris processor of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007327",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "procures",
+    "coRole": "is procured by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031002procuresis procured by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007006",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "produces",
+    "coRole": "is produced by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031101producesis produced by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007313",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "produces",
+    "coRole": "is produced by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031002producesis produced by"
+  },
+  {
+    "id": "428b7adf-97ea-43de-852f-da558811fd3f",
+    "sourceTypeId": "752466c9-ec22-4510-802d-77de062cabe7",
+    "sourceTypeName": "Analytics Model",
+    "targetTypeId": "00000000-0000-0000-0001-000400000001",
+    "targetTypeName": "Data Set",
+    "role": "produces",
+    "coRole": "is produced by",
+    "description": "SIDE TRACK 6: Creating Analytics Models",
+    "uniqueKey": "752466c9-ec22-4510-802d-77de062cabe700000000-0000-0000-0001-000400000001producesis produced by"
+  },
+  {
+    "id": "537a56d9-a8a4-4117-b2d1-4228ec47c72e",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "purchased from",
+    "coRole": "provided",
+    "description": "Duplicative Data Spending",
+    "uniqueKey": "00000000-0000-0000-0000-000000031002c0e00000-0000-0000-0000-000000000261purchased fromprovided"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007417",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039021",
+    "targetTypeName": "Purpose",
+    "role": "Purpose of processing",
+    "coRole": "Is purpose of processing for data sharing agreement",
+    "uniqueKey": "00000000-0000-0000-0000-000000031231c0e00000-0000-0000-0000-000000039021Purpose of processingIs purpose of processing for data sharing agreement"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007096",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031115",
+    "sourceTypeName": "Business Qualifier",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "qualifies",
+    "coRole": "is qualified by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003111500000000-0000-0000-0000-000000031000qualifiesis qualified by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007432",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031110",
+    "sourceTypeName": "Line of Business",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "receives service/product by",
+    "coRole": "provides service/product to",
+    "description": "The business unit or business area that receives the product or service from the vendor.",
+    "uniqueKey": "00000000-0000-0000-0000-000000031110c0e00000-0000-0000-0000-000000000261receives service/product byprovides service/product to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007335",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "recipient",
+    "coRole": "is recipient of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031103c0e00000-0000-0000-0000-000000000261recipientis recipient of"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007404",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031110",
+    "targetTypeName": "Line of Business",
+    "role": "recipient",
+    "coRole": "is recipient of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031110recipientis recipient of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007092",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007504",
+    "sourceTypeName": "Foreign Key Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeName": "Column",
+    "role": "references",
+    "coRole": "references",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750400000000-0000-0000-0000-000000031008referencesreferences"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007399",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039039",
+    "targetTypeName": "DPIA",
+    "role": "refers to",
+    "coRole": "refered to by",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000039039refers torefered to by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007353",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039014",
+    "sourceTypeName": "Regulation",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "regulates",
+    "coRole": "regulated by",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003901400000000-0000-0000-0000-000000031000regulatesregulated by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007392",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039023",
+    "sourceTypeName": "Security Issue",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "related supervisor",
+    "coRole": "is supervisor related to",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039023c0e00000-0000-0000-0000-000000000261related supervisoris supervisor related to"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007401",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039039",
+    "sourceTypeName": "DPIA",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000000261",
+    "targetTypeName": "Party",
+    "role": "related supervisor",
+    "coRole": "is supervisor related to",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039039c0e00000-0000-0000-0000-000000000261related supervisoris supervisor related to"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007015",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "related to",
+    "coRole": "impacted by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031000related toimpacted by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007064",
+    "sourceTypeId": "00000000-0000-0000-0001-000400000001",
+    "sourceTypeName": "Data Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "related to",
+    "coRole": "impacted by",
+    "uniqueKey": "00000000-0000-0000-0001-00040000000100000000-0000-0000-0000-000000031101related toimpacted by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000006",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "sourceTypeName": "Report",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "related to",
+    "coRole": "is impacted by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110200000000-0000-0000-0000-000000031101related tois impacted by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007094",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031005",
+    "sourceTypeName": "Data Attribute",
+    "targetTypeId": "00000000-0000-0000-0000-000000031008",
+    "targetTypeName": "Column",
+    "role": "represents",
+    "coRole": "represented by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100500000000-0000-0000-0000-000000031008representsrepresented by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007038",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
+    "sourceTypeName": "Business Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "represents",
+    "coRole": "represented by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110100000000-0000-0000-0000-000000031002representsrepresented by"
+  },
+  {
+    "id": "cd000000-0000-0000-0000-000000000022",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031004",
+    "sourceTypeName": "Data Entity",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "represents",
+    "coRole": "is represented by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100400000000-0000-0000-0000-000000031007representsis represented by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-090000010026",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031002",
+    "sourceTypeName": "Data Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031007",
+    "targetTypeName": "Table",
+    "role": "represents",
+    "coRole": "is represented by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100200000000-0000-0000-0000-000000031007representsis represented by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007341",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031103",
+    "sourceTypeName": "Business Process",
+    "targetTypeId": "00000000-0000-0000-0000-000000031201",
+    "targetTypeName": "Governance Asset",
+    "role": "required by",
+    "coRole": "requires",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110300000000-0000-0000-0000-000000031201required byrequires"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007032",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031201",
+    "sourceTypeName": "Governance Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031111",
+    "targetTypeName": "Issue",
+    "role": "resolves",
+    "coRole": "resolved by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120100000000-0000-0000-0000-000000031111resolvesresolved by"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007428",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039050",
+    "sourceTypeName": "Assessment",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039033",
+    "targetTypeName": "Remediation Action",
+    "role": "resulting remediation",
+    "coRole": "remediates",
+    "description": "This attribute provide info about Remediation Action is created to address the Assessment",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039050c0e00000-0000-0000-0000-000000039033resulting remediationremediates"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007400",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039050",
+    "sourceTypeName": "Assessment",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039047",
+    "targetTypeName": "Remediation Plan",
+    "role": "resulting remediations",
+    "coRole": "remediates",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039050c0e00000-0000-0000-0000-000000039047resulting remediationsremediates"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007419",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039044",
+    "sourceTypeName": "Safeguard",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039050",
+    "targetTypeName": "Assessment",
+    "role": "results from",
+    "coRole": "relevant safeguards",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039044c0e00000-0000-0000-0000-000000039050results fromrelevant safeguards"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007420",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039054",
+    "sourceTypeName": "Time-based Review Rule",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "Revision frequency",
+    "coRole": "Determines revision frequency for",
+    "uniqueKey": "c0e00000-0000-0000-0000-00000003905400000000-0000-0000-0000-000000021001Revision frequencyDetermines revision frequency for"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007418",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031231",
+    "sourceTypeName": "Data Sharing Agreement",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039044",
+    "targetTypeName": "Safeguard",
+    "role": "Safeguards for processing outside the EEA",
+    "coRole": "Ensures legal compliance of",
+    "uniqueKey": "00000000-0000-0000-0000-000000031231c0e00000-0000-0000-0000-000000039044Safeguards for processing outside the EEAEnsures legal compliance of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007080",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007503",
+    "sourceTypeName": "Code Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "source",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750300000000-0000-0000-0000-000000021001sourceundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007088",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007502",
+    "sourceTypeName": "Field Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "targetTypeName": "Data Element",
+    "role": "source",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750200000000-0000-0000-0000-000000031026sourceundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000003",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031302",
+    "targetTypeName": "System",
+    "role": "source",
+    "coRole": "is source of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031302sourceis source of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000010",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031027",
+    "sourceTypeName": "Report Attribute",
+    "targetTypeId": "00000000-0000-0000-0000-000000031005",
+    "targetTypeName": "Data Attribute",
+    "role": "sourced from",
+    "coRole": "is source of",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102700000000-0000-0000-0000-000000031005sourced fromis source of"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007026",
+    "sourceTypeId": "00000000-0000-0000-0000-000000021002",
+    "sourceTypeName": "Code Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031031",
+    "targetTypeName": "Crosswalk",
+    "role": "source of",
+    "coRole": "source",
+    "uniqueKey": "00000000-0000-0000-0000-00000002100200000000-0000-0000-0000-000000031031source ofsource"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007028",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031025",
+    "sourceTypeName": "Data Structure",
+    "targetTypeId": "00000000-0000-0000-0000-000000031030",
+    "targetTypeName": "Mapping Specification",
+    "role": "source of",
+    "coRole": "source",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102500000000-0000-0000-0000-000000031030source ofsource"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007036",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "source system for",
+    "coRole": "source system",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000011001source system forsource system"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007036",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "source system for",
+    "coRole": "source system",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031101source system forsource system"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007050",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "source system for",
+    "coRole": "source system",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031002source system forsource system"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007065",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "specializes",
+    "coRole": "generalizes",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031000specializesgeneralizes"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007414",
+    "sourceTypeId": "c0e00000-0000-0000-0000-000000039047",
+    "sourceTypeName": "Remediation Plan",
+    "targetTypeId": "c0e00000-0000-0000-0000-000000039047",
+    "targetTypeName": "Remediation Plan",
+    "role": "succeeding actions/plans",
+    "coRole": "preceding actions/plans",
+    "description": "...",
+    "uniqueKey": "c0e00000-0000-0000-0000-000000039047c0e00000-0000-0000-0000-000000039047succeeding actions/planspreceding actions/plans"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007342",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031105",
+    "sourceTypeName": "Business Dimension",
+    "targetTypeId": "00000000-0000-0000-0000-000000031105",
+    "targetTypeName": "Business Dimension",
+    "role": "successor",
+    "coRole": "predecessor",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110500000000-0000-0000-0000-000000031105successorpredecessor"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007001",
+    "sourceTypeId": "00000000-0000-0000-0000-000000011001",
+    "sourceTypeName": "Business Term",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "synonym",
+    "coRole": "synonym of",
+    "uniqueKey": "00000000-0000-0000-0000-00000001100100000000-0000-0000-0000-000000011001synonymsynonym of"
+  },
+  {
+    "id": "1b6d7ded-c0c8-4e58-a2fe-3e24e56b7db2",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031104",
+    "sourceTypeName": "Measure",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "synonym",
+    "coRole": "synonym for",
+    "description": "Finance Metrics glossary",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110400000000-0000-0000-0000-000000011001synonymsynonym for"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007048",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "system of record for",
+    "coRole": "system of record",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031002system of record forsystem of record"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007034",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "system of record for",
+    "coRole": "system of record",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000011001system of record forsystem of record"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007035",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000011001",
+    "targetTypeName": "Business Term",
+    "role": "system of use for",
+    "coRole": "system of use",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000011001system of use forsystem of use"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007049",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "system of use for",
+    "coRole": "system of use",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031002system of use forsystem of use"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007087",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007500",
+    "sourceTypeName": "Fact Type",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "Tail",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750000000000-0000-0000-0000-000000031000Tailundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007089",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007502",
+    "sourceTypeName": "Field Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "targetTypeName": "Data Element",
+    "role": "target",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750200000000-0000-0000-0000-000000031026targetundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007081",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007503",
+    "sourceTypeName": "Code Mapping",
+    "targetTypeId": "00000000-0000-0000-0000-000000021001",
+    "targetTypeName": "Code Value",
+    "role": "target",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750300000000-0000-0000-0000-000000021001targetundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007029",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031025",
+    "sourceTypeName": "Data Structure",
+    "targetTypeId": "00000000-0000-0000-0000-000000031030",
+    "targetTypeName": "Mapping Specification",
+    "role": "target of",
+    "coRole": "target",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102500000000-0000-0000-0000-000000031030target oftarget"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007027",
+    "sourceTypeId": "00000000-0000-0000-0000-000000021002",
+    "sourceTypeName": "Code Set",
+    "targetTypeId": "00000000-0000-0000-0000-000000031031",
+    "targetTypeName": "Crosswalk",
+    "role": "target of",
+    "coRole": "target",
+    "uniqueKey": "00000000-0000-0000-0000-00000002100200000000-0000-0000-0000-000000031031target oftarget"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007069",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031026",
+    "sourceTypeName": "Data Element",
+    "targetTypeId": "00000000-0000-0000-0000-000000031026",
+    "targetTypeName": "Data Element",
+    "role": "targets",
+    "coRole": "sources",
+    "description": "Indicates a detected technical lineage between two Data Element assets.",
+    "uniqueKey": "00000000-0000-0000-0000-00000003102600000000-0000-0000-0000-000000031026targetssources"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007328",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031301",
+    "sourceTypeName": "Technology Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "target system for",
+    "coRole": "target system",
+    "uniqueKey": "00000000-0000-0000-0000-00000003130100000000-0000-0000-0000-000000031101target system fortarget system"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007084",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007501",
+    "sourceTypeName": "Data Usage",
+    "targetTypeId": "00000000-0000-0000-0000-000000031101",
+    "targetTypeName": "Business Asset",
+    "role": "used in",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750100000000-0000-0000-0000-000000031101used inundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000012",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "sourceTypeName": "Report",
+    "targetTypeId": "00000000-0000-0000-0000-000000031027",
+    "targetTypeName": "Report Attribute",
+    "role": "uses",
+    "coRole": "used in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110200000000-0000-0000-0000-000000031027usesused in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007083",
+    "sourceTypeId": "00000000-0000-0000-0000-000000007501",
+    "sourceTypeName": "Data Usage",
+    "targetTypeId": "00000000-0000-0000-0000-000000031002",
+    "targetTypeName": "Data Asset",
+    "role": "uses",
+    "uniqueKey": "00000000-0000-0000-0000-00000000750100000000-0000-0000-0000-000000031002usesundefined"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000021",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "sourceTypeName": "Report",
+    "targetTypeId": "00000000-0000-0000-0000-000000031005",
+    "targetTypeName": "Data Attribute",
+    "role": "uses",
+    "coRole": "used in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110200000000-0000-0000-0000-000000031005usesused in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-120000000007",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031102",
+    "sourceTypeName": "Report",
+    "targetTypeId": "00000000-0000-0000-0000-000000031102",
+    "targetTypeName": "Report",
+    "role": "uses",
+    "coRole": "used in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110200000000-0000-0000-0000-000000031102usesused in"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007004",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031000",
+    "sourceTypeName": "Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031000",
+    "targetTypeName": "Asset",
+    "role": "uses",
+    "coRole": "used in",
+    "uniqueKey": "00000000-0000-0000-0000-00000003100000000000-0000-0000-0000-000000031000usesused in"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000007347",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031101",
+    "sourceTypeName": "Business Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031301",
+    "targetTypeName": "Technology Asset",
+    "role": "utilizes",
+    "coRole": "utilized by",
+    "uniqueKey": "00000000-0000-0000-0000-00000003110100000000-0000-0000-0000-000000031301utilizesutilized by"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000007031",
+    "sourceTypeId": "00000000-0000-0000-0000-000000031201",
+    "sourceTypeName": "Governance Asset",
+    "targetTypeId": "00000000-0000-0000-0000-000000031111",
+    "targetTypeName": "Issue",
+    "role": "violated by",
+    "coRole": "violates",
+    "uniqueKey": "00000000-0000-0000-0000-00000003120100000000-0000-0000-0000-000000031111violated byviolates"
+  }
+]

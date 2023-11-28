@@ -1,0 +1,235 @@
+[
+  {
+    "id": "00000000-0000-0000-0001-000500000051",
+    "name": "1st Decile",
+    "newName": "1st Decile - imported",
+    "kind": "STRING",
+    "description": "The data 1st decile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000049",
+    "name": "1st Percentile",
+    "newName": "1st Percentile - imported",
+    "kind": "STRING",
+    "description": "The data 1st percentile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000052",
+    "name": "1st Quartile",
+    "newName": "1st Quartile - imported",
+    "kind": "STRING",
+    "description": "The data 1st quartile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000054",
+    "name": "3rd Quartile",
+    "newName": "3rd Quartile - imported",
+    "kind": "STRING",
+    "description": "The data 3rd quartile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000050",
+    "name": "5th Percentile",
+    "newName": "5th Percentile - imported",
+    "kind": "STRING",
+    "description": "The data 5th percentile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000056",
+    "name": "95th Percentile",
+    "newName": "95th Percentile - imported",
+    "kind": "STRING",
+    "description": "The data 95th percentile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000057",
+    "name": "99th Percentile",
+    "newName": "99th Percentile - imported",
+    "kind": "STRING",
+    "description": "The 99th percentile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000055",
+    "name": "9th Decile",
+    "newName": "9th Decile - imported",
+    "kind": "STRING",
+    "description": "The data 9th decile value.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000045",
+    "name": "Categorical Data",
+    "newName": "Categorical Data - imported",
+    "kind": "BOOLEAN",
+    "description": "Data is considered categorical if it can only take a limited set of different values.",
+    "statisticsEnabled": false
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000005",
+    "name": "Data Type",
+    "newName": "Data Type - imported",
+    "kind": "SINGLE_VALUE_LIST",
+    "description": "The logical Data type detected by Collibra profiling.",
+    "allowedValues": [
+      "Text",
+      "Decimal Number",
+      "Whole Number",
+      "Date",
+      "Time",
+      "Date Time",
+      "True/False",
+      "Geographical",
+      "Array",
+      "N/A"
+    ]
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000037",
+    "name": "Empty Values Count",
+    "newName": "Empty Values Count - imported",
+    "kind": "NUMERIC",
+    "description": "The number of empty values for that column",
+    "isInteger": true,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "1e9ffc51-3b04-46f6-90db-54a1cb7fa4f7",
+    "name": "Ikea Cushion Color",
+    "newName": "Ikea Cushion Color - imported",
+    "kind": "SINGLE_VALUE_LIST",
+    "allowedValues": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ]
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000043",
+    "name": "Maximum Text Length",
+    "newName": "Maximum Text Length - imported",
+    "kind": "NUMERIC",
+    "description": "The length of the longest text value in this column",
+    "isInteger": true,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000041",
+    "name": "Maximum Value",
+    "newName": "Maximum Value - imported",
+    "kind": "STRING",
+    "description": "The maximum value, using alphabetical order for text",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000035",
+    "name": "Mean",
+    "newName": "Mean - imported",
+    "kind": "NUMERIC",
+    "description": "The mean of values (numeric only), excluding missing values",
+    "isInteger": false,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000053",
+    "name": "Median",
+    "newName": "Median - imported",
+    "kind": "STRING",
+    "description": "The data median value",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000042",
+    "name": "Minimum Text Length",
+    "newName": "Minimum Text Length - imported",
+    "kind": "NUMERIC",
+    "description": "The length of the shortest text value in this column",
+    "isInteger": true,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000040",
+    "name": "Minimum Value",
+    "newName": "Minimum Value - imported",
+    "kind": "STRING",
+    "description": "The minimum value, using alphabetical order for text",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000048",
+    "name": "Mode",
+    "newName": "Mode - imported",
+    "kind": "STRING",
+    "description": "The value with the highest frequency for a categorical feature.",
+    "stringType": "PLAIN_TEXT"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000047",
+    "name": "Number of distinct values",
+    "newName": "Number of distinct values - imported",
+    "kind": "NUMERIC",
+    "description": "The number of different values stored in this column",
+    "isInteger": true,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "fa70600e-d923-40c1-bad7-79f434b4eaa6",
+    "name": "Number of Times Requested",
+    "newName": "Number of Times Requested - imported",
+    "kind": "NUMERIC",
+    "description": "The number of times this asset has been requested for permissible use.",
+    "isInteger": true,
+    "statisticsEnabled": false
+  },
+  {
+    "id": "b45d506e-2572-4bc7-a653-00e1852c1550",
+    "name": "Number of Times Viewed",
+    "newName": "Number of Times Viewed - imported",
+    "kind": "NUMERIC",
+    "description": "Number of times this asset has been viewed.   This value needs to be updated using a workflow.",
+    "isInteger": true,
+    "statisticsEnabled": false
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000029",
+    "name": "Personally Identifiable Information",
+    "newName": "Personally Identifiable Information - imported",
+    "kind": "BOOLEAN",
+    "description": "An indicator to flag an asset that could potentially be used to identify a specific individual.",
+    "statisticsEnabled": false
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000068",
+    "name": "Profiled Row Count",
+    "newName": "Profiled Row Count - imported",
+    "kind": "NUMERIC",
+    "description": "The number of rows from the data set that were selected for profiling",
+    "isInteger": true,
+    "statisticsEnabled": false
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000039",
+    "name": "Standard Deviation",
+    "newName": "Standard Deviation - imported",
+    "kind": "NUMERIC",
+    "description": "The statistical standard deviation of values (numeric only)",
+    "isInteger": false,
+    "statisticsEnabled": true
+  },
+  {
+    "id": "00000000-0000-0000-0001-000500000038",
+    "name": "Variance",
+    "newName": "Variance - imported",
+    "kind": "NUMERIC",
+    "description": "The statistical variance of values (numeric only)",
+    "isInteger": false,
+    "statisticsEnabled": true
+  }
+]

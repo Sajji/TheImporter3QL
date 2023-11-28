@@ -1,0 +1,77 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000030031",
+    "name": "Data Usage Registry",
+    "newName": "Data Usage Registry - imported",
+    "description": "A Collection of Data usage agreements and related Data structures",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000030001",
+      "name": "Data Asset Domain",
+      "newName": "Data Asset Domain - imported",
+      "parentId": "00000000-0000-0000-0000-000000003007",
+      "parentName": "Vocabulary"
+    }
+  },
+  {
+    "id": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+    "name": "IkeaDomainType",
+    "newName": "IkeaDomainType - imported",
+    "parentId": "00000000-0000-0000-0000-000000010001",
+    "parentName": "Glossary",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000010001",
+      "name": "Glossary",
+      "newName": "Glossary - imported",
+      "description": "A prioritized list of Business Terms, Acronyms and their meanings",
+      "parentId": "00000000-0000-0000-0000-000000003007",
+      "parentName": "Vocabulary"
+    }
+  },
+  {
+    "id": "4e5b8416-95a7-46b8-8132-197d58766bf0",
+    "name": "Ikea Jr DomainType",
+    "newName": "Ikea Jr DomainType - imported",
+    "parentId": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+    "parentName": "IkeaDomainType",
+    "parent": {
+      "id": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+      "name": "IkeaDomainType",
+      "newName": "IkeaDomainType - imported",
+      "parentId": "00000000-0000-0000-0000-000000010001",
+      "parentName": "Glossary",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000010001",
+        "name": "Glossary",
+        "newName": "Glossary - imported",
+        "description": "A prioritized list of Business Terms, Acronyms and their meanings",
+        "parentId": "00000000-0000-0000-0000-000000003007",
+        "parentName": "Vocabulary"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030011",
+    "name": "Physical Data Dictionary",
+    "newName": "Physical Data Dictionary - imported",
+    "description": "A collection of physical objects like Table, Column, file field, Views, APIs to describe how data is stored, arranged and related to each other in a data storage technology/location",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000030001",
+      "name": "Data Asset Domain",
+      "newName": "Data Asset Domain - imported",
+      "parentId": "00000000-0000-0000-0000-000000003007",
+      "parentName": "Vocabulary"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-002200000000",
+    "name": "Storage Catalog",
+    "newName": "Storage Catalog - imported",
+    "description": "Storage Catalog",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  }
+]

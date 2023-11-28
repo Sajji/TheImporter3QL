@@ -1,0 +1,319 @@
+[
+  {
+    "id": "00000000-0000-0000-0001-000400000001",
+    "name": "Data Set",
+    "newName": "Data Set - imported",
+    "description": "A collection of related sets of Data Assets that are Data Elements or composed of Data Elements.\n\nExample: Customer contact information",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031002",
+      "name": "Data Asset",
+      "newName": "Data Asset - imported",
+      "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031131",
+    "name": "Data Usage",
+    "newName": "Data Usage - imported",
+    "description": "An asset that clearly documents how the data can be used between data producers and consumers for specific purpose\n\nExample: Sales growth information that is available to share for read only requirements",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031002",
+      "name": "Data Asset",
+      "newName": "Data Asset - imported",
+      "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000011001",
+    "name": "Business Term",
+    "newName": "Business Term - imported",
+    "description": "A word or phrase that is used to describe something or to express a concept in a particular kind of language or branch of business.\n\nExamples: Customer, Person Purchase Count, Loan Amount.",
+    "parentId": "00000000-0000-0000-0000-000000031101",
+    "parentName": "Business Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031101",
+      "name": "Business Asset",
+      "newName": "Business Asset - imported",
+      "description": "A type of asset that is exclusively used and governed by the business user community. Its instance assets, and all instances instantiating its subtypes, pertain to the business organization. Business assets typically include business concepts like Business Term, Business Process, Line of Business, etc. that help to build the semantics of any organization with insufficient details to build an actual business application.<div><br></div><div>Part of BG</div>",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031008",
+    "name": "Column",
+    "newName": "Column - imported",
+    "description": "An atomic unit of data that can be stored in a database table.\n\nExamples: FST_NM, EMPID",
+    "parentId": "00000000-0000-0000-0000-000000031026",
+    "parentName": "Data Element",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031026",
+      "name": "Data Element",
+      "newName": "Data Element - imported",
+      "description": "A unit of data that is defined for processing. It usually documents an aspect of something abstract.\n\nExamples: Person Birth Date, Person Address, Customer Account Number",
+      "parentId": "00000000-0000-0000-0000-000000031002",
+      "parentName": "Data Asset",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031002",
+        "name": "Data Asset",
+        "newName": "Data Asset - imported",
+        "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+        "parentId": "00000000-0000-0000-0000-000000031000",
+        "parentName": "Asset"
+      }
+    }
+  },
+  {
+    "id": "106dba1b-aa4a-462b-8121-cc3c6562d6e4",
+    "name": "Ikea Chair Cushion",
+    "newName": "Ikea Chair Cushion - imported",
+    "parentId": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+    "parentName": "Ikea Chair",
+    "parent": {
+      "id": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+      "name": "Ikea Chair",
+      "newName": "Ikea Chair - imported",
+      "parentId": "00000000-0000-0000-0000-000000031007",
+      "parentName": "Table",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031007",
+        "name": "Table",
+        "newName": "Table - imported",
+        "description": "An implementation of Data Entities in columns and rows, in a given database system. It is the basic structure of a relational database.\n\nExamples: Account_tbl, CUST_ADDR",
+        "parentId": "00000000-0000-0000-0000-000000031025",
+        "parentName": "Data Structure",
+        "parent": {
+          "id": "00000000-0000-0000-0000-000000031025",
+          "name": "Data Structure",
+          "newName": "Data Structure - imported",
+          "description": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName",
+          "parentId": "00000000-0000-0000-0000-000000031002",
+          "parentName": "Data Asset",
+          "parent": {
+            "id": "00000000-0000-0000-0000-000000031002",
+            "name": "Data Asset",
+            "newName": "Data Asset - imported",
+            "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+            "parentId": "00000000-0000-0000-0000-000000031000",
+            "parentName": "Asset"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031006",
+    "name": "Database",
+    "newName": "Database - imported",
+    "description": "A collection of data that is systematically organized or structured in order to make it easy to create, update and query the information.\n\nExamples: Ora_DGC_V45, SalesDB2020",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031301",
+      "name": "Technology Asset",
+      "newName": "Technology Asset - imported",
+      "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "64ae9f65-79b8-420d-9e85-1a477c8067df",
+    "name": "Ikea Chair",
+    "newName": "Ikea Chair - imported",
+    "parentId": "00000000-0000-0000-0000-000000031007",
+    "parentName": "Table",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031007",
+      "name": "Table",
+      "newName": "Table - imported",
+      "description": "An implementation of Data Entities in columns and rows, in a given database system. It is the basic structure of a relational database.\n\nExamples: Account_tbl, CUST_ADDR",
+      "parentId": "00000000-0000-0000-0000-000000031025",
+      "parentName": "Data Structure",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031025",
+        "name": "Data Structure",
+        "newName": "Data Structure - imported",
+        "description": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName",
+        "parentId": "00000000-0000-0000-0000-000000031002",
+        "parentName": "Data Asset",
+        "parent": {
+          "id": "00000000-0000-0000-0000-000000031002",
+          "name": "Data Asset",
+          "newName": "Data Asset - imported",
+          "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+          "parentId": "00000000-0000-0000-0000-000000031000",
+          "parentName": "Asset"
+        }
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000002",
+    "name": "Schema",
+    "newName": "Schema - imported",
+    "description": "An organized structure described in a formal language supported by implementing technology that defines the objects in the technology assets (Table and columns in a relational database, fields in a file).\n\nE.g. CRM_001_PRD, HDP_CNT_CLD",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031025",
+      "name": "Data Structure",
+      "newName": "Data Structure - imported",
+      "description": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName",
+      "parentId": "00000000-0000-0000-0000-000000031002",
+      "parentName": "Data Asset",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031002",
+        "name": "Data Asset",
+        "newName": "Data Asset - imported",
+        "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+        "parentId": "00000000-0000-0000-0000-000000031000",
+        "parentName": "Asset"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031007",
+    "name": "Table",
+    "newName": "Table - imported",
+    "description": "An implementation of Data Entities in columns and rows, in a given database system. It is the basic structure of a relational database.\n\nExamples: Account_tbl, CUST_ADDR",
+    "parentId": "00000000-0000-0000-0000-000000031025",
+    "parentName": "Data Structure",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031025",
+      "name": "Data Structure",
+      "newName": "Data Structure - imported",
+      "description": "A logical grouping of data elements, where the data structure is the whole and the data elements are parts of that whole.\n\nExample: cfPerson is a Data Structure that contains the data elements cfBirthDate, cfPersonFullName",
+      "parentId": "00000000-0000-0000-0000-000000031002",
+      "parentName": "Data Asset",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031002",
+        "name": "Data Asset",
+        "newName": "Data Asset - imported",
+        "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+        "parentId": "00000000-0000-0000-0000-000000031000",
+        "parentName": "Asset"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-000400000003",
+    "name": "Foreign Key",
+    "newName": "Foreign Key - imported",
+    "description": "Asset type used to model the Primary key - Foreign key relations in relational databases.",
+    "parentId": "00000000-0000-0000-0000-000000031002",
+    "parentName": "Data Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031002",
+      "name": "Data Asset",
+      "newName": "Data Asset - imported",
+      "description": "A type of asset that represents details of organizational data in two layers. One layer is independent of any particular technology for non-technical stakeholder communication. The other one is taking the implementation system for technical stakeholder communication into account.\n\nExamples: Data Element, Table",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000002",
+    "name": "File Group",
+    "newName": "File Group - imported",
+    "description": "A collection of physical files which together represent a single logical file.",
+    "parentId": "00000000-0000-0000-0000-000000031301",
+    "parentName": "Technology Asset",
+    "parent": {
+      "id": "00000000-0000-0000-0000-000000031301",
+      "name": "Technology Asset",
+      "newName": "Technology Asset - imported",
+      "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+      "parentId": "00000000-0000-0000-0000-000000031000",
+      "parentName": "Asset"
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000031303",
+    "name": "Directory",
+    "newName": "Directory - imported",
+    "description": "An organizational structure that contains files and/or other directories.\n\nExamples: C:/Collibra, D:/Collibra/DGC",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container",
+    "parent": {
+      "id": "00000000-0000-0000-0001-002900000002",
+      "name": "File Container",
+      "newName": "File Container - imported",
+      "description": "An asset type that represents Cloud File Container.",
+      "parentId": "00000000-0000-0000-0000-000000031301",
+      "parentName": "Technology Asset",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031301",
+        "name": "Technology Asset",
+        "newName": "Technology Asset - imported",
+        "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+        "parentId": "00000000-0000-0000-0000-000000031000",
+        "parentName": "Asset"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000000",
+    "name": "S3 File System",
+    "newName": "S3 File System - imported",
+    "description": "An asset type that represents Amazon S3.",
+    "parentId": "00000000-0000-0000-0001-002900000001",
+    "parentName": "File Storage",
+    "parent": {
+      "id": "00000000-0000-0000-0001-002900000001",
+      "name": "File Storage",
+      "newName": "File Storage - imported",
+      "description": "An asset type that represents a Cloud File Storage bucket.",
+      "parentId": "00000000-0000-0000-0000-000000031302",
+      "parentName": "System",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031302",
+        "name": "System",
+        "newName": "System - imported",
+        "description": "Executable software that you can buy commercially off the shelf (COTS), or build internally, to automate one or more business functions that help run a business smoothly and efficiently.\n\nExamples: CRM, ERP, EDW",
+        "parentId": "00000000-0000-0000-0000-000000031301",
+        "parentName": "Technology Asset",
+        "parent": {
+          "id": "00000000-0000-0000-0000-000000031301",
+          "name": "Technology Asset",
+          "newName": "Technology Asset - imported",
+          "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+          "parentId": "00000000-0000-0000-0000-000000031000",
+          "parentName": "Asset"
+        }
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-0000-0001-002400000001",
+    "name": "S3 Bucket",
+    "newName": "S3 Bucket - imported",
+    "description": "An asset type that represents an Amazon S3 Bucket, which is a logical unit of storage containing Amazon S3 Objects.",
+    "parentId": "00000000-0000-0000-0001-002900000002",
+    "parentName": "File Container",
+    "parent": {
+      "id": "00000000-0000-0000-0001-002900000002",
+      "name": "File Container",
+      "newName": "File Container - imported",
+      "description": "An asset type that represents Cloud File Container.",
+      "parentId": "00000000-0000-0000-0000-000000031301",
+      "parentName": "Technology Asset",
+      "parent": {
+        "id": "00000000-0000-0000-0000-000000031301",
+        "name": "Technology Asset",
+        "newName": "Technology Asset - imported",
+        "description": "A piece of information technology (hardware, software, database, software platform) that helps an organization to run a business application.\n\nExamples: Database, File",
+        "parentId": "00000000-0000-0000-0000-000000031000",
+        "parentName": "Asset"
+      }
+    }
+  }
+]

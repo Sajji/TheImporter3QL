@@ -1,0 +1,235 @@
+[
+  {
+    "id": "0d401f12-1706-4606-ad23-f9b3a1844d62",
+    "name": "Analytics Model Catalog",
+    "newName": "Analytics Model Catalog - imported",
+    "description": "A collection of Predictive Models&nbsp;",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038006",
+    "name": "Assessment Register",
+    "newName": "Assessment Register - imported",
+    "description": "A set of assessments",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030032",
+    "name": "Assessment Review Register",
+    "newName": "Assessment Review Register - imported",
+    "description": "Domain type for Assessment Review assets, which are created when an assessment is conducted on an asset and submitted for review.",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000015000",
+    "name": "BI Catalog",
+    "newName": "BI Catalog - imported",
+    "description": "Domain that collects assets of BI systems",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030002",
+    "name": "Business Asset Domain",
+    "newName": "Business Asset Domain - imported",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030012",
+    "name": "Business Dimensions",
+    "newName": "Business Dimensions - imported",
+    "description": "A set of Business Dimensions that categorize and describe Business Terms",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020001",
+    "name": "Codelist",
+    "newName": "Codelist - imported",
+    "description": "Any kind of data that is used solely to categorize other data found in a database, or solely for relating data in a database to information beyond the boundaries of the enterprise.",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030001",
+    "name": "Data Asset Domain",
+    "newName": "Data Asset Domain - imported",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038004",
+    "name": "Data Breach Register",
+    "newName": "Data Breach Register - imported",
+    "description": "A domain that contains assets of the asset type 'Security Issue'.",
+    "parentId": "00000000-0000-0000-0000-000000030004",
+    "parentName": "Technology Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030031",
+    "name": "Data Usage Registry",
+    "newName": "Data Usage Registry - imported",
+    "description": "A Collection of Data usage agreements and related Data structures",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000010001",
+    "name": "Glossary",
+    "newName": "Glossary - imported",
+    "description": "A prioritized list of Business Terms, Acronyms and their meanings",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030003",
+    "name": "Governance Asset Domain",
+    "newName": "Governance Asset Domain - imported",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000020011",
+    "name": "Hierarchies",
+    "newName": "Hierarchies - imported",
+    "description": "A Code list with a hierarchical structure in its Code Values",
+    "parentId": "00000000-0000-0000-0000-000000020001",
+    "parentName": "Codelist"
+  },
+  {
+    "id": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+    "name": "IkeaDomainType",
+    "newName": "IkeaDomainType - imported",
+    "parentId": "00000000-0000-0000-0000-000000010001",
+    "parentName": "Glossary"
+  },
+  {
+    "id": "4e5b8416-95a7-46b8-8132-197d58766bf0",
+    "name": "Ikea Jr DomainType",
+    "newName": "Ikea Jr DomainType - imported",
+    "parentId": "a2d2cd5e-4037-4037-92f9-0dca814a8587",
+    "parentName": "IkeaDomainType"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030006",
+    "name": "Issue Classification",
+    "newName": "Issue Classification - imported",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030021",
+    "name": "Logical Data Dictionary",
+    "newName": "Logical Data Dictionary - imported",
+    "description": "Represents details of organizational data, independent of any particular technology and uses vocabulary of a business area to communicate with non-technical stakeholders",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030007",
+    "name": "Mapping Domain",
+    "newName": "Mapping Domain - imported",
+    "description": "Groups Data Assets of the type Crosswalk (to map between Code Sets) and Mapping Specification (used to map between Data Structures).",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "cd000000-0000-0000-0000-000000030001",
+    "name": "Metric Catalog",
+    "newName": "Metric Catalog - imported",
+    "description": "A collection of Measures and KPIs",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038002",
+    "name": "Organization",
+    "newName": "Organization - imported",
+    "description": "A domain that defines how business dimensions, such as Line of Business and Business functions, are structured to determine how the roles and responsibilities are assigned, controlled and coordinated, and how information flows between the different levels of management, depending on the organization's objectives and strategies.",
+    "parentId": "00000000-0000-0000-0000-000000030012",
+    "parentName": "Business Dimensions"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030011",
+    "name": "Physical Data Dictionary",
+    "newName": "Physical Data Dictionary - imported",
+    "description": "A collection of physical objects like Table, Column, file field, Views, APIs to describe how data is stored, arranged and related to each other in a data storage technology/location",
+    "parentId": "00000000-0000-0000-0000-000000030001",
+    "parentName": "Data Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030013",
+    "name": "Policy Domain",
+    "newName": "Policy Domain - imported",
+    "description": "A set of policies and standards related to an organization",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038003",
+    "name": "Process Register",
+    "newName": "Process Register - imported",
+    "description": "<p>A collection of Business Processes</p>",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038007",
+    "name": "Remediation Register",
+    "newName": "Remediation Register - imported",
+    "description": "An inventory of Remediation Plans and Actions to remediate risks within the organisation",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030022",
+    "name": "Report Catalog",
+    "newName": "Report Catalog - imported",
+    "description": "A collection of reports and their definitions with the list of related Report attributes",
+    "parentId": "00000000-0000-0000-0000-000000030002",
+    "parentName": "Business Asset Domain"
+  },
+  {
+    "id": "c0e00000-0000-0000-0000-000000038005",
+    "name": "Risk and Control Register",
+    "newName": "Risk and Control Register - imported",
+    "description": "A domain that contains assets of the asset types 'Risk Category', 'Risk', 'Risk Source', 'Threat', 'Consequences', 'Control' and/or 'Control Assurance'.",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030023",
+    "name": "Rulebook",
+    "newName": "Rulebook - imported",
+    "description": "A set of rules on the basis of which decisions are made and programs or policies are governed",
+    "parentId": "00000000-0000-0000-0000-000000030003",
+    "parentName": "Governance Asset Domain"
+  },
+  {
+    "id": "00000000-0000-0000-0001-002200000000",
+    "name": "Storage Catalog",
+    "newName": "Storage Catalog - imported",
+    "description": "Storage Catalog",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030004",
+    "name": "Technology Asset Domain",
+    "newName": "Technology Asset Domain - imported",
+    "description": "An inventory of all Technology assets and their business benefits.",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000030008",
+    "name": "Validation Rule Domain",
+    "newName": "Validation Rule Domain - imported",
+    "parentId": "00000000-0000-0000-0000-000000003007",
+    "parentName": "Vocabulary"
+  }
+]

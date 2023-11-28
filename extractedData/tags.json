@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1b5fcd38-5b4b-44a6-9bb4-e288e0e589f6",
+    "name": "Purchases"
+  },
+  {
+    "id": "423f3369-3580-4829-a760-a206e26f69d8",
+    "name": "Sales"
+  },
+  {
+    "id": "1a740371-2152-455c-85fa-ce43d442ab04",
+    "name": "Customer"
+  },
+  {
+    "id": "774d4d31-bef8-40c3-9a2a-edb771d57b8a",
+    "name": "Analytics"
+  },
+  {
+    "id": "20becfbd-2ad8-4e17-96c0-97dfe4018161",
+    "name": "Internet_Sales"
+  },
+  {
+    "id": "7454dc25-8b87-4908-8be8-3912b0f8a192",
+    "name": "Gender_(CCPA)"
+  }
+]

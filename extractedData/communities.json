@@ -1,0 +1,48 @@
+[
+  {
+    "id": "00000000-0000-0000-0001-000100000001",
+    "name": "1.Data"
+  },
+  {
+    "id": "00000000-0000-0000-0001-000100000002",
+    "name": "Landing Zone",
+    "description": "The Landing Zone community is used to store schemas that have been ingested through the Jobserver and have not yet been moved to their permanent location in the Data community.",
+    "parentId": "00000000-0000-0000-0001-000100000001"
+  },
+  {
+    "id": "2418833a-4b43-4102-9a4e-d3e28d021828",
+    "name": "AWS HCM",
+    "description": "The AWS HCM community is used to store assets from the corresponding data source.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "5846f7b2-67ed-4eb1-8718-456d4e05e21e",
+    "name": "CRM Cloud",
+    "description": "The CRM Cloud community is used to store assets from the corresponding data source.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "7527ea30-ad8e-463c-b2c5-92296932ae18",
+    "name": "HR Cloud",
+    "description": "The HR Cloud community is used to store assets from the corresponding data source.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "7efed47e-98fc-404e-8d87-efe16ce935cd",
+    "name": "AWS RDS",
+    "description": "The AWS RDS community is used to store assets from the corresponding data sources.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "d609ae7b-6c19-4924-aabb-c16e164f6118",
+    "name": "Corporate EDWH Cloud",
+    "description": "The Corporate EDWH Cloud community is used to store assets from the corresponding data source.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  },
+  {
+    "id": "ef6d3e04-6292-419e-9e7f-07af9940f5c9",
+    "name": "AWS S3",
+    "description": "The AWS S3 community is used to store assets from the corresponding data sources.",
+    "parentId": "00000000-0000-0000-0001-000100000002"
+  }
+]
